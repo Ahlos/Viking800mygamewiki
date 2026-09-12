@@ -1,0 +1,14 @@
+{
+  "articles": [
+    {
+      "id": "WIKI-000001",
+      "title": "Nordhamns hamnprojekt",
+      "entity_id": "PRO-000001"
+    },
+    {
+      "id": "WIKI-000002",
+      "title": "Fartyget Lodet",
+      "entity_id": "SHIP-000001"
+    }
+  ]
+}

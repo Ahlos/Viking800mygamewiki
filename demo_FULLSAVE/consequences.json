@@ -1,0 +1,11 @@
+{
+  "consequences": [
+    {
+      "id": "CON-000001",
+      "description": "Planeringen av hamnen kan påbörjas.",
+      "decision_id": "DEC-000001",
+      "project_id": "PRO-000001",
+      "status": "Aktiv"
+    }
+  ]
+}

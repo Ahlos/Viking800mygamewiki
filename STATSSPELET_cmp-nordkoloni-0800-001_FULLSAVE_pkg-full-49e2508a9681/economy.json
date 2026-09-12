@@ -1,0 +1,78 @@
+{
+  "format": "STATSSPELET",
+  "format_version": "1.0.0",
+  "campaign_id": "cmp-nordkoloni-0800-001",
+  "document_type": "economy",
+  "document_revision": 0,
+  "coverage": "partial",
+  "coverage_note": "Endast ekonomiska uppgifter som faktiskt etablerats i kampanjen är sparade; exakta mängder saknas där de aldrig fastställts.",
+  "data": {
+    "records": [
+      {
+        "id": "eco-000001",
+        "type": "food_supply",
+        "status": "active",
+        "refs": [
+          {
+            "target_id": "org-000001",
+            "target_document": "organizations",
+            "relation": "applies_to"
+          }
+        ],
+        "provenance": {
+          "kind": "simulated",
+          "source_refs": [],
+          "as_of_date": "0800-06-08",
+          "note": ""
+        },
+        "visibility": {
+          "classification": "player_known",
+          "known_to_character_ids": [
+            "chr-000001"
+          ]
+        },
+        "extensions": {},
+        "unit": null,
+        "currency": null,
+        "measurement_period": null,
+        "stock_or_flow": "mixed",
+        "value": null,
+        "qualitative_status": "Medförda förråd fortfarande stabila; lokal matförsörjning förbättras men är ännu viktig som komplement.",
+        "uncertainty": "Exakta mängder har inte fastställts i kampanjen."
+      },
+      {
+        "id": "eco-000002",
+        "type": "labor_capacity",
+        "status": "active",
+        "refs": [
+          {
+            "target_id": "org-000001",
+            "target_document": "organizations",
+            "relation": "applies_to"
+          }
+        ],
+        "provenance": {
+          "kind": "simulated",
+          "source_refs": [],
+          "as_of_date": "0800-06-08",
+          "note": ""
+        },
+        "visibility": {
+          "classification": "player_known",
+          "known_to_character_ids": [
+            "chr-000001"
+          ]
+        },
+        "extensions": {},
+        "unit": "persons",
+        "currency": null,
+        "measurement_period": "current",
+        "stock_or_flow": "stock",
+        "value": 200,
+        "qualitative_status": "Arbetskraften är begränsad och måste delas mellan byggande, mat, boskap, vakt och sjöfart.",
+        "uncertainty": null
+      }
+    ]
+  },
+  "extensions": {}
+}

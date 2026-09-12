@@ -1,0 +1,13 @@
+{
+  "format": "STATSSPELET",
+  "format_version": "1.0.0",
+  "campaign_id": "cmp-nordkoloni-0800-001",
+  "document_type": "open_questions",
+  "document_revision": 0,
+  "coverage": "complete",
+  "coverage_note": "Komplett för all etablerad kampanjkanon som hör till dokumentets domän i denna snapshot.",
+  "data": {
+    "questions": []
+  },
+  "extensions": {}
+}

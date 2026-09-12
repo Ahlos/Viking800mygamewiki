@@ -1,0 +1,85 @@
+{
+  "format": "STATSSPELET",
+  "format_version": "1.0.0",
+  "campaign_id": "cmp-nordkoloni-0800-001",
+  "document_type": "consequences",
+  "document_revision": 0,
+  "coverage": "complete",
+  "coverage_note": "Komplett för all etablerad kampanjkanon som hör till dokumentets domän i denna snapshot.",
+  "data": {
+    "consequences": [
+      {
+        "id": "con-000001",
+        "type": "contact_lock",
+        "status": "active",
+        "refs": [],
+        "provenance": {
+          "kind": "simulated",
+          "source_refs": [],
+          "as_of_date": "0800-06-08",
+          "note": ""
+        },
+        "visibility": {
+          "classification": "player_known",
+          "known_to_character_ids": [
+            "chr-000001"
+          ]
+        },
+        "extensions": {},
+        "cause": "Kampanjregel beslutad av spelaren",
+        "conditions": [
+          "Ingen direkt kontakt eller konstruerade ledtrådar före spärrdatumet"
+        ],
+        "earliest_date": "0800-07-02",
+        "due_date": null,
+        "target_ids": [],
+        "effect": "Efter spärrdatumet kan naturlig kontakt bli möjlig vid rimliga omständigheter; den är inte garanterad.",
+        "consequence_status": "pending",
+        "applied_at": null,
+        "application_key": "contact-lock-0800-07-02"
+      },
+      {
+        "id": "con-000002",
+        "type": "settlement_established",
+        "status": "active",
+        "refs": [
+          {
+            "target_id": "loc-000001",
+            "target_document": "locations",
+            "relation": "target"
+          },
+          {
+            "target_id": "dec-000003",
+            "target_document": "decisions",
+            "relation": "cause"
+          }
+        ],
+        "provenance": {
+          "kind": "simulated",
+          "source_refs": [],
+          "as_of_date": "0800-06-08",
+          "note": ""
+        },
+        "visibility": {
+          "classification": "player_known",
+          "known_to_character_ids": [
+            "chr-000001"
+          ]
+        },
+        "extensions": {},
+        "cause": "dec-000003",
+        "conditions": [],
+        "earliest_date": "0800-06-04",
+        "due_date": "0800-06-04",
+        "target_ids": [
+          "loc-000001"
+        ],
+        "effect": "Vestrhóll fungerar som huvudbosättning.",
+        "consequence_status": "applied",
+        "applied_at": "0800-06-04T08:00",
+        "application_key": "settlement-vestrholl-established"
+      }
+    ]
+  },
+  "extensions": {}
+}

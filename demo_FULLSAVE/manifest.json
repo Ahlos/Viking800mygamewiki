@@ -1,0 +1,7 @@
+{
+  "campaign_id": "DEMO-STATSSPELET",
+  "save_type": "FULLSAVE",
+  "save_format_version": "demo-1",
+  "is_demo": true,
+  "description": "Fiktiva testdata för wiki-generatorn. Inte en verklig kampanj."
+}

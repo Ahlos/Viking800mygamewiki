@@ -1,0 +1,278 @@
+{
+  "format": "STATSSPELET",
+  "format_version": "1.0.0",
+  "campaign_id": "cmp-nordkoloni-0800-001",
+  "document_type": "decisions",
+  "document_revision": 0,
+  "coverage": "complete",
+  "coverage_note": "Komplett för all etablerad kampanjkanon som hör till dokumentets domän i denna snapshot.",
+  "data": {
+    "decisions": [
+      {
+        "id": "dec-000001",
+        "type": "player_decision",
+        "status": "active",
+        "refs": [
+          {
+            "target_id": "chr-000001",
+            "target_document": "characters",
+            "relation": "decided_by"
+          },
+          {
+            "target_id": "org-000001",
+            "target_document": "organizations",
+            "relation": "affects"
+          }
+        ],
+        "provenance": {
+          "kind": "simulated",
+          "source_refs": [],
+          "as_of_date": "0800-06-08",
+          "note": ""
+        },
+        "visibility": {
+          "classification": "player_known",
+          "known_to_character_ids": [
+            "chr-000001"
+          ]
+        },
+        "extensions": {},
+        "decided_by_id": "chr-000001",
+        "time": "0800-06-01T08:00",
+        "meaning": "Kombinerad landstigning och personlig rekognosering.",
+        "authority": "expeditionsledare",
+        "execution_status": "applied",
+        "project_ids": [],
+        "effect_ids": []
+      },
+      {
+        "id": "dec-000002",
+        "type": "player_decision",
+        "status": "active",
+        "refs": [
+          {
+            "target_id": "chr-000001",
+            "target_document": "characters",
+            "relation": "decided_by"
+          }
+        ],
+        "provenance": {
+          "kind": "simulated",
+          "source_refs": [],
+          "as_of_date": "0800-06-08",
+          "note": ""
+        },
+        "visibility": {
+          "classification": "player_known",
+          "known_to_character_ids": [
+            "chr-000001"
+          ]
+        },
+        "extensions": {},
+        "decided_by_id": "chr-000001",
+        "time": "0800-06-02T08:00",
+        "meaning": "Två tiomannastyrkor rekognoserar i olika riktningar.",
+        "authority": "expeditionsledare",
+        "execution_status": "applied",
+        "project_ids": [],
+        "effect_ids": []
+      },
+      {
+        "id": "dec-000003",
+        "type": "player_decision",
+        "status": "active",
+        "refs": [
+          {
+            "target_id": "chr-000001",
+            "target_document": "characters",
+            "relation": "decided_by"
+          },
+          {
+            "target_id": "loc-000001",
+            "target_document": "locations",
+            "relation": "selected"
+          }
+        ],
+        "provenance": {
+          "kind": "simulated",
+          "source_refs": [],
+          "as_of_date": "0800-06-08",
+          "note": ""
+        },
+        "visibility": {
+          "classification": "player_known",
+          "known_to_character_ids": [
+            "chr-000001"
+          ]
+        },
+        "extensions": {},
+        "decided_by_id": "chr-000001",
+        "time": "0800-06-03T20:00",
+        "meaning": "Vestrhóll väljs som huvudbosättning.",
+        "authority": "expeditionsledare",
+        "execution_status": "applied",
+        "project_ids": [
+          "prj-000001",
+          "prj-000002",
+          "prj-000003"
+        ],
+        "effect_ids": []
+      },
+      {
+        "id": "dec-000004",
+        "type": "player_decision",
+        "status": "active",
+        "refs": [
+          {
+            "target_id": "chr-000001",
+            "target_document": "characters",
+            "relation": "decided_by"
+          },
+          {
+            "target_id": "loc-000005",
+            "target_document": "locations",
+            "relation": "preserve"
+          }
+        ],
+        "provenance": {
+          "kind": "simulated",
+          "source_refs": [],
+          "as_of_date": "0800-06-08",
+          "note": ""
+        },
+        "visibility": {
+          "classification": "player_known",
+          "known_to_character_ids": [
+            "chr-000001"
+          ]
+        },
+        "extensions": {},
+        "decided_by_id": "chr-000001",
+        "time": "0800-06-03T20:30",
+        "meaning": "Bästa jorden sparas för framtida åker; hus placeras på högre/sämre mark.",
+        "authority": "bosättningsledare",
+        "execution_status": "applied",
+        "project_ids": [
+          "prj-000006"
+        ],
+        "effect_ids": []
+      },
+      {
+        "id": "dec-000005",
+        "type": "player_decision",
+        "status": "active",
+        "refs": [
+          {
+            "target_id": "chr-000001",
+            "target_document": "characters",
+            "relation": "decided_by"
+          }
+        ],
+        "provenance": {
+          "kind": "simulated",
+          "source_refs": [],
+          "as_of_date": "0800-06-08",
+          "note": ""
+        },
+        "visibility": {
+          "classification": "player_known",
+          "known_to_character_ids": [
+            "chr-000001"
+          ]
+        },
+        "extensions": {},
+        "decided_by_id": "chr-000001",
+        "time": "0800-06-05T08:00",
+        "meaning": "Hus och förråd prioriteras före åkerarbete.",
+        "authority": "bosättningsledare",
+        "execution_status": "applied",
+        "project_ids": [
+          "prj-000001",
+          "prj-000002",
+          "prj-000003"
+        ],
+        "effect_ids": []
+      },
+      {
+        "id": "dec-000006",
+        "type": "player_decision",
+        "status": "active",
+        "refs": [
+          {
+            "target_id": "chr-000001",
+            "target_document": "characters",
+            "relation": "decided_by"
+          },
+          {
+            "target_id": "prj-000003",
+            "target_document": "projects",
+            "relation": "affects"
+          }
+        ],
+        "provenance": {
+          "kind": "simulated",
+          "source_refs": [],
+          "as_of_date": "0800-06-08",
+          "note": ""
+        },
+        "visibility": {
+          "classification": "player_known",
+          "known_to_character_ids": [
+            "chr-000001"
+          ]
+        },
+        "extensions": {},
+        "decided_by_id": "chr-000001",
+        "time": "0800-06-06T20:00",
+        "meaning": "Färdigställ bostadshusen vidare.",
+        "authority": "bosättningsledare",
+        "execution_status": "applied",
+        "project_ids": [
+          "prj-000003"
+        ],
+        "effect_ids": []
+      },
+      {
+        "id": "dec-000007",
+        "type": "player_decision",
+        "status": "active",
+        "refs": [
+          {
+            "target_id": "chr-000001",
+            "target_document": "characters",
+            "relation": "decided_by"
+          },
+          {
+            "target_id": "prj-000004",
+            "target_document": "projects",
+            "relation": "affects"
+          }
+        ],
+        "provenance": {
+          "kind": "simulated",
+          "source_refs": [],
+          "as_of_date": "0800-06-08",
+          "note": ""
+        },
+        "visibility": {
+          "classification": "player_known",
+          "known_to_character_ids": [
+            "chr-000001"
+          ]
+        },
+        "extensions": {},
+        "decided_by_id": "chr-000001",
+        "time": "0800-06-07T08:00",
+        "meaning": "Slutför första bostadshuset och starta smedjan.",
+        "authority": "bosättningsledare",
+        "execution_status": "applied",
+        "project_ids": [
+          "prj-000002",
+          "prj-000004"
+        ],
+        "effect_ids": []
+      }
+    ]
+  },
+  "extensions": {}
+}

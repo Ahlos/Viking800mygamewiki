@@ -1,0 +1,219 @@
+{
+  "format": "STATSSPELET",
+  "format_version": "1.0.0",
+  "campaign_id": "cmp-nordkoloni-0800-001",
+  "document_type": "events",
+  "document_revision": 0,
+  "coverage": "complete",
+  "coverage_note": "Komplett för all etablerad kampanjkanon som hör till dokumentets domän i denna snapshot.",
+  "data": {
+    "events": [
+      {
+        "id": "evt-000001",
+        "type": "landfall",
+        "status": "active",
+        "refs": [],
+        "provenance": {
+          "kind": "simulated",
+          "source_refs": [],
+          "as_of_date": "0800-06-08",
+          "note": ""
+        },
+        "visibility": {
+          "classification": "player_known",
+          "known_to_character_ids": [
+            "chr-000001"
+          ]
+        },
+        "extensions": {},
+        "actual_time": "0800-06-01T08:00",
+        "earliest_time": null,
+        "actor_ids": [
+          "chr-000001",
+          "org-000001"
+        ],
+        "location_ids": [
+          "loc-000002"
+        ],
+        "trigger": "Expeditionens ankomst",
+        "effect_refs": [
+          "tle-000001"
+        ],
+        "event_status": "occurred",
+        "summary": "De sju fartygen går i land och Strandbúðir blir första lägret."
+      },
+      {
+        "id": "evt-000002",
+        "type": "reconnaissance",
+        "status": "active",
+        "refs": [],
+        "provenance": {
+          "kind": "simulated",
+          "source_refs": [],
+          "as_of_date": "0800-06-08",
+          "note": ""
+        },
+        "visibility": {
+          "classification": "player_known",
+          "known_to_character_ids": [
+            "chr-000001"
+          ]
+        },
+        "extensions": {},
+        "actual_time": "0800-06-02T08:00",
+        "earliest_time": null,
+        "actor_ids": [
+          "chr-000001",
+          "chr-000002"
+        ],
+        "location_ids": [
+          "loc-000003",
+          "loc-000004"
+        ],
+        "trigger": "Sök efter vatten, mat och boplats",
+        "effect_refs": [
+          "tle-000002"
+        ],
+        "event_status": "occurred",
+        "summary": "Oskar och Lagertha leder varsin spaningsstyrka och identifierar flera lovande områden."
+      },
+      {
+        "id": "evt-000003",
+        "type": "reconnaissance",
+        "status": "active",
+        "refs": [],
+        "provenance": {
+          "kind": "simulated",
+          "source_refs": [],
+          "as_of_date": "0800-06-08",
+          "note": ""
+        },
+        "visibility": {
+          "classification": "player_known",
+          "known_to_character_ids": [
+            "chr-000001"
+          ]
+        },
+        "extensions": {},
+        "actual_time": "0800-06-03T08:00",
+        "earliest_time": null,
+        "actor_ids": [
+          "chr-000001",
+          "chr-000002"
+        ],
+        "location_ids": [
+          "loc-000001",
+          "loc-000004"
+        ],
+        "trigger": "Sista planerade rekognoseringsdagen före bosättningsval",
+        "effect_refs": [
+          "tle-000003"
+        ],
+        "event_status": "occurred",
+        "summary": "Vägar markeras genom skogen. Vestrhóll bedöms långsiktigt starkast."
+      },
+      {
+        "id": "evt-000004",
+        "type": "settlement_move",
+        "status": "active",
+        "refs": [],
+        "provenance": {
+          "kind": "simulated",
+          "source_refs": [],
+          "as_of_date": "0800-06-08",
+          "note": ""
+        },
+        "visibility": {
+          "classification": "player_known",
+          "known_to_character_ids": [
+            "chr-000001"
+          ]
+        },
+        "extensions": {},
+        "actual_time": "0800-06-04T08:00",
+        "earliest_time": null,
+        "actor_ids": [
+          "org-000001"
+        ],
+        "location_ids": [
+          "loc-000001",
+          "loc-000002"
+        ],
+        "trigger": "Beslut att bosätta sig vid Vestrhóll",
+        "effect_refs": [
+          "tle-000004"
+        ],
+        "event_status": "occurred",
+        "summary": "Huvuddelen av expeditionen flyttar till Vestrhóll och permanent etablering börjar."
+      },
+      {
+        "id": "evt-000005",
+        "type": "construction",
+        "status": "active",
+        "refs": [],
+        "provenance": {
+          "kind": "simulated",
+          "source_refs": [],
+          "as_of_date": "0800-06-08",
+          "note": ""
+        },
+        "visibility": {
+          "classification": "player_known",
+          "known_to_character_ids": [
+            "chr-000001"
+          ]
+        },
+        "extensions": {},
+        "actual_time": "0800-06-07T16:00",
+        "earliest_time": null,
+        "actor_ids": [
+          "chr-000005",
+          "org-000001"
+        ],
+        "location_ids": [
+          "loc-000001"
+        ],
+        "trigger": "Prioritering av smedja efter första huset",
+        "effect_refs": [
+          "tle-000005"
+        ],
+        "event_status": "occurred",
+        "summary": "En enkel fungerande smedja tas i bruk."
+      },
+      {
+        "id": "evt-000006",
+        "type": "sleep",
+        "status": "active",
+        "refs": [],
+        "provenance": {
+          "kind": "simulated",
+          "source_refs": [],
+          "as_of_date": "0800-06-08",
+          "note": ""
+        },
+        "visibility": {
+          "classification": "player_known",
+          "known_to_character_ids": [
+            "chr-000001"
+          ]
+        },
+        "extensions": {},
+        "actual_time": "0800-06-08T01:05",
+        "earliest_time": null,
+        "actor_ids": [
+          "chr-000001"
+        ],
+        "location_ids": [
+          "loc-000001"
+        ],
+        "trigger": "Oskar går och lägger sig 7 juni kl. 21:05",
+        "effect_refs": [
+          "tle-000006"
+        ],
+        "event_status": "occurred",
+        "summary": "Oskar har sovit fyra timmar och är fortfarande sovande vid den frysta sparpunkten."
+      }
+    ]
+  },
+  "extensions": {}
+}

@@ -1,0 +1,58 @@
+{
+  "format": "STATSSPELET",
+  "format_version": "1.0.0",
+  "campaign_id": "cmp-nordkoloni-0800-001",
+  "document_type": "military",
+  "document_revision": 0,
+  "coverage": "partial",
+  "coverage_note": "Endast känd vakthållning och etablerad stridskapacitet för bosättningen är representerad.",
+  "data": {
+    "records": [
+      {
+        "id": "mil-000001",
+        "type": "settlement_watch",
+        "status": "active",
+        "refs": [
+          {
+            "target_id": "org-000001",
+            "target_document": "organizations",
+            "relation": "belongs_to"
+          },
+          {
+            "target_id": "chr-000006",
+            "target_document": "characters",
+            "relation": "associated_leader"
+          }
+        ],
+        "provenance": {
+          "kind": "simulated",
+          "source_refs": [],
+          "as_of_date": "0800-06-08",
+          "note": ""
+        },
+        "visibility": {
+          "classification": "player_known",
+          "known_to_character_ids": [
+            "chr-000001"
+          ]
+        },
+        "extensions": {},
+        "personnel": null,
+        "equipment": null,
+        "readiness": "aktiv nattvakt",
+        "training": "blandad; delar av expeditionen har stridserfarenhet",
+        "ammunition": null,
+        "fuel": null,
+        "logistics": null,
+        "mobilization_time": null,
+        "location_id": "loc-000001",
+        "orders": [
+          "Håll vakt nattetid",
+          "Rapportera ovanliga observationer",
+          "Undvik slarvig ensam vandring"
+        ]
+      }
+    ]
+  },
+  "extensions": {}
+}

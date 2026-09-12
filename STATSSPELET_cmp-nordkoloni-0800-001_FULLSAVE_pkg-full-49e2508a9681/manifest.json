@@ -1,0 +1,236 @@
+{
+  "format": "STATSSPELET",
+  "format_version": "1.0.0",
+  "masterprompt_version": "3.1",
+  "package_type": "FULLSAVE",
+  "package_id": "pkg-full-49e2508a9681",
+  "campaign_id": "cmp-nordkoloni-0800-001",
+  "base_fullsave_id": "pkg-full-49e2508a9681",
+  "parent_package_id": null,
+  "sequence": 0,
+  "state_revision": 0,
+  "from_state_revision": null,
+  "from_turn": null,
+  "from_game_date": null,
+  "turn": 8,
+  "game_date": "0800-06-08",
+  "created_at": "2026-09-12T17:47:00+02:00",
+  "simulation_status": "paused_admin",
+  "completeness": "complete",
+  "loadable": true,
+  "continuation_ready": true,
+  "required_documents": [
+    "game_state.json",
+    "characters.json",
+    "relationships.json",
+    "organizations.json",
+    "locations.json",
+    "politics.json",
+    "economy.json",
+    "resources.json",
+    "military.json",
+    "projects.json",
+    "events.json",
+    "timeline.json",
+    "decisions.json",
+    "consequences.json",
+    "rules.json",
+    "open_questions.json",
+    "wiki_index.json"
+  ],
+  "files": [
+    {
+      "path": "game_state.json",
+      "document_type": "game_state",
+      "document_revision": 0,
+      "required": true,
+      "operation": "snapshot",
+      "bytes": 3567,
+      "sha256": "9b585780764bc0dbd4d57550fc25253872ad1ec29b484b32b6de5ef0214f0911",
+      "previous_sha256": null
+    },
+    {
+      "path": "characters.json",
+      "document_type": "characters",
+      "document_revision": 0,
+      "required": true,
+      "operation": "snapshot",
+      "bytes": 40360,
+      "sha256": "1c8eee86cbec046af6271bcb1f30a3d69b96ade0c24af49fb60e02039185a697",
+      "previous_sha256": null
+    },
+    {
+      "path": "relationships.json",
+      "document_type": "relationships",
+      "document_revision": 0,
+      "required": true,
+      "operation": "snapshot",
+      "bytes": 1439,
+      "sha256": "a1b980aef2742600fcad6bff51e211b8020327ef31a649bcb6124da62bd3f4a7",
+      "previous_sha256": null
+    },
+    {
+      "path": "organizations.json",
+      "document_type": "organizations",
+      "document_revision": 0,
+      "required": true,
+      "operation": "snapshot",
+      "bytes": 1923,
+      "sha256": "54482f46200bf0802608812aba709d28fb8007159210f0aa39608582139e6fff",
+      "previous_sha256": null
+    },
+    {
+      "path": "locations.json",
+      "document_type": "locations",
+      "document_revision": 0,
+      "required": true,
+      "operation": "snapshot",
+      "bytes": 5537,
+      "sha256": "4ac659858fbebb3b2627e5bc13385fcfc44d316976447e6681ddf2910050f43b",
+      "previous_sha256": null
+    },
+    {
+      "path": "politics.json",
+      "document_type": "politics",
+      "document_revision": 0,
+      "required": true,
+      "operation": "snapshot",
+      "bytes": 1523,
+      "sha256": "ffc3d702dcfc8173ce621092e0bd51e5f9c796256aee411aff069ab9cbab8ae3",
+      "previous_sha256": null
+    },
+    {
+      "path": "economy.json",
+      "document_type": "economy",
+      "document_revision": 0,
+      "required": true,
+      "operation": "snapshot",
+      "bytes": 2296,
+      "sha256": "6ae68632ed773f1ce8142b4de7c28a3d49ca6e892e27787e246ba8116fb6e823",
+      "previous_sha256": null
+    },
+    {
+      "path": "resources.json",
+      "document_type": "resources",
+      "document_revision": 0,
+      "required": true,
+      "operation": "snapshot",
+      "bytes": 4534,
+      "sha256": "838de8257035d72321412c94bd3f46fd3fd4a104037796bed6abc3700159f9f9",
+      "previous_sha256": null
+    },
+    {
+      "path": "military.json",
+      "document_type": "military",
+      "document_revision": 0,
+      "required": true,
+      "operation": "snapshot",
+      "bytes": 1603,
+      "sha256": "e4f96eb34f99ee84dcd6ac91983e6134f6ac08b3e38d9745f928435511c4c44c",
+      "previous_sha256": null
+    },
+    {
+      "path": "projects.json",
+      "document_type": "projects",
+      "document_revision": 0,
+      "required": true,
+      "operation": "snapshot",
+      "bytes": 8579,
+      "sha256": "61b8052e8338b2670054c39a8e5ae8a905660968d26fcd3649e7f912c016f9f4",
+      "previous_sha256": null
+    },
+    {
+      "path": "events.json",
+      "document_type": "events",
+      "document_revision": 0,
+      "required": true,
+      "operation": "snapshot",
+      "bytes": 5925,
+      "sha256": "79c25e79fca6c1a9e5d396d23b08597a4a5498582ba2eadbc91fa4ada2afedf1",
+      "previous_sha256": null
+    },
+    {
+      "path": "timeline.json",
+      "document_type": "timeline",
+      "document_revision": 0,
+      "required": true,
+      "operation": "snapshot",
+      "bytes": 4856,
+      "sha256": "996f86334e78b6d4902d1e8d156858095540c28ce0b5617f5e69a36761c7950a",
+      "previous_sha256": null
+    },
+    {
+      "path": "decisions.json",
+      "document_type": "decisions",
+      "document_revision": 0,
+      "required": true,
+      "operation": "snapshot",
+      "bytes": 7641,
+      "sha256": "6f2112478f3e1b584f81bb2c489afa75aac984058bec9fa115ed8c43199b674e",
+      "previous_sha256": null
+    },
+    {
+      "path": "consequences.json",
+      "document_type": "consequences",
+      "document_revision": 0,
+      "required": true,
+      "operation": "snapshot",
+      "bytes": 2494,
+      "sha256": "2021909e1135c6962b451f265da070b48f949b68995b5b20b310a7c45591eef7",
+      "previous_sha256": null
+    },
+    {
+      "path": "rules.json",
+      "document_type": "rules",
+      "document_revision": 0,
+      "required": true,
+      "operation": "snapshot",
+      "bytes": 155411,
+      "sha256": "8c8cf9040b1f21328f05e91d3c0274abc14e611e415291b51d4e8160d375eb76",
+      "previous_sha256": null
+    },
+    {
+      "path": "open_questions.json",
+      "document_type": "open_questions",
+      "document_revision": 0,
+      "required": true,
+      "operation": "snapshot",
+      "bytes": 363,
+      "sha256": "d3f9c120a4c6a5e9a9871fa93e2e0e4f23beb5765a70d13d632998e3dbe8138b",
+      "previous_sha256": null
+    },
+    {
+      "path": "wiki_index.json",
+      "document_type": "wiki_index",
+      "document_revision": 0,
+      "required": true,
+      "operation": "snapshot",
+      "bytes": 1611,
+      "sha256": "f5a32af5a4ac7768a4d55e278b28ce85d7272afab18ca6eb91573352e635f614",
+      "previous_sha256": null
+    }
+  ],
+  "integrity": "sha256_bytes",
+  "validation": {
+    "level": "machine_checked",
+    "result": "pass",
+    "checks": {
+      "required_documents_count": "pass",
+      "all_data_files_present": "pass",
+      "json_and_identity": "pass",
+      "global_unique_ids": "pass",
+      "explicit_refs": "pass",
+      "player_character": "pass",
+      "clock": "pass",
+      "rules": "pass",
+      "resume_context": "pass",
+      "open_blockers": "pass",
+      "sha256_bytes": "pass"
+    },
+    "errors": [],
+    "warnings": [
+      "Ekonomi, resurser och militär har coverage=partial eftersom endast faktiskt etablerade kampanjuppgifter får sparas; okända eller aldrig fastställda värden har inte hittats på.",
+      "De återstående expeditionsmedlemmarna utöver de individuellt etablerade NPC:erna är bevarade i populationen men materialiseras individuellt först när de identifieras enligt kampanjregeln."
+    ]
+  }
+}

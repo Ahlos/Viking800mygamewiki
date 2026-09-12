@@ -1,0 +1,19 @@
+{
+  "organizations": {
+    "ORG-000001": {
+      "name": "Nordhamns råd",
+      "type": "Kommunal organisation",
+      "leader_id": "PER-000003",
+      "location_id": "LOC-000001",
+      "description": "Det fiktiva rådet samordnar stadens hamnprojekt."
+    },
+    "ORG-000002": {
+      "name": "Marina institutet",
+      "type": "Forskningsorganisation",
+      "member_ids": [
+        "PER-000002"
+      ],
+      "location_id": "LOC-000002"
+    }
+  }
+}

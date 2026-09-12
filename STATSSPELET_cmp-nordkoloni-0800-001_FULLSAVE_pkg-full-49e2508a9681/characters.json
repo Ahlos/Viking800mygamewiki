@@ -1,0 +1,1466 @@
+{
+  "format": "STATSSPELET",
+  "format_version": "1.0.0",
+  "campaign_id": "cmp-nordkoloni-0800-001",
+  "document_type": "characters",
+  "document_revision": 0,
+  "coverage": "complete",
+  "coverage_note": "Komplett för all etablerad kampanjkanon som hör till dokumentets domän i denna snapshot.",
+  "data": {
+    "characters": [
+      {
+        "id": "chr-000001",
+        "type": "person",
+        "status": "active",
+        "refs": [
+          {
+            "target_id": "org-000001",
+            "target_document": "organizations",
+            "relation": "member_of"
+          },
+          {
+            "target_id": "loc-000001",
+            "target_document": "locations",
+            "relation": "currently_at"
+          },
+          {
+            "target_id": "chr-000002",
+            "target_document": "characters",
+            "relation": "spouse_of"
+          }
+        ],
+        "provenance": {
+          "kind": "player_defined",
+          "source_refs": [],
+          "as_of_date": "0800-06-08",
+          "note": "Spelarkaraktär definierad av spelaren."
+        },
+        "visibility": {
+          "classification": "player_known",
+          "known_to_character_ids": [
+            "chr-000001"
+          ]
+        },
+        "extensions": {},
+        "name": "Oskar",
+        "sex": "male",
+        "age_years": 20,
+        "birth_date": null,
+        "life_status": "alive",
+        "role": "Bosättningens ledare",
+        "posts": [
+          "expeditionsledare",
+          "bosättningsledare"
+        ],
+        "education": null,
+        "background": "Ledde den nordiska kolonisationsexpeditionen västerut. Har tidigare stridserfarenhet.",
+        "military_background": "Har krigat tidigare och har praktisk stridsvana.",
+        "political_background": null,
+        "family_refs": [
+          "chr-000002"
+        ],
+        "organization_ids": [
+          "org-000001"
+        ],
+        "location_id": "loc-000001",
+        "personal_assets": [
+          "svärd",
+          "rundsköld",
+          "yxa",
+          "kniv",
+          "mantel",
+          "ull- och linneskläder",
+          "läderskor"
+        ],
+        "goals": [
+          "Göra Vestrhóll till ett varaktigt hem",
+          "Skydda bosättarna",
+          "Bygga ett eget hem med Lagertha",
+          "På sikt bilda familj"
+        ],
+        "stats": {
+          "strength": {
+            "level": "god",
+            "detail": "Van vid fysiskt arbete och klarar tung belastning väl."
+          },
+          "endurance": {
+            "level": "god",
+            "detail": "Orkar arbeta, marschera och slåss under längre perioder."
+          },
+          "perception": {
+            "level": "god",
+            "detail": "Uppmärksam på omgivning och praktiska risker."
+          },
+          "willpower": {
+            "level": "hög",
+            "detail": "Håller fast vid beslut under press och motgång."
+          },
+          "leadership": {
+            "level": "god",
+            "detail": "Kan organisera människor och få andra att lyssna, men auktoriteten bygger på förtroende."
+          },
+          "social": {
+            "level": "måttlig-god",
+            "detail": "Kan tala med och påverka andra utan att vara en specialiserad förhandlare."
+          },
+          "combat": {
+            "level": "god",
+            "detail": "Har verklig stridserfarenhet och fungerar under press."
+          }
+        },
+        "traits": [
+          {
+            "name": "Stridsvan",
+            "detail": "Har varit i verklig strid och är mindre benägen att frysa när våld börjar."
+          },
+          {
+            "name": "Beslutsam",
+            "detail": "Tenderar att fullfölja fattade beslut även när situationen blir svårare än väntat."
+          },
+          {
+            "name": "Ung ledare",
+            "detail": "Har stort ansvar vid låg ålder och utvecklar ledarerfarenhet snabbt."
+          },
+          {
+            "name": "Kolonisationsledare",
+            "detail": "Har praktisk erfarenhet av att leda etablering under osäkra förhållanden."
+          },
+          {
+            "name": "Ansvarstagande",
+            "detail": "Delar arbete och tar ansvar för gruppens säkerhet och försörjning."
+          },
+          {
+            "name": "Försiktigt optimistisk",
+            "detail": "Tror starkt på kolonins möjligheter men vill behålla vaksamhet."
+          }
+        ],
+        "skills": {
+          "svärd": {
+            "level": "god",
+            "detail": "Kan använda svärdet effektivt under press."
+          },
+          "sköld": {
+            "level": "god",
+            "detail": "Van vid att skydda sig och kombinera sköld med närstridsvapen."
+          },
+          "yxa": {
+            "level": "god",
+            "detail": "Van vid yxan både i arbete och strid."
+          },
+          "överlevnad": {
+            "level": "god",
+            "detail": "Kan hantera lägerliv, skydd, eld, vatten och hårt väder."
+          },
+          "utforskning": {
+            "level": "måttlig-god",
+            "detail": "Har börjat utveckla erfarenhet av att leda grupper i okänd terräng."
+          },
+          "ledarskap": {
+            "level": "god",
+            "detail": "Kan organisera människor och fatta beslut när tydlig riktning behövs."
+          },
+          "expeditionsledning": {
+            "level": "god",
+            "detail": "Kan samordna människor, förråd och uppgifter under osäkra förhållanden."
+          },
+          "sjövana": {
+            "level": "måttlig",
+            "detail": "Förstår livet ombord och grundläggande sjöfärd men är inte specialist."
+          },
+          "träarbete": {
+            "level": "grundläggande",
+            "detail": "Kan hjälpa till med fällning, röjning och enklare byggarbete."
+          },
+          "jordbruk": {
+            "level": "grundläggande",
+            "detail": "Förstår grundbehoven men förlitar sig på erfarna bönder."
+          }
+        },
+        "reputation": [
+          {
+            "scope": "bosättarna",
+            "label": "Erkänd ledare",
+            "detail": "Ses som personen som förde expeditionen hit och hittills hållit gruppen samlad."
+          },
+          {
+            "scope": "bosättarna",
+            "label": "Beslutsam",
+            "detail": "Uppfattas som någon som faktiskt fattar beslut när situationen kräver det."
+          },
+          {
+            "scope": "bosättarna",
+            "label": "Delar arbetet",
+            "detail": "Har själv deltagit i utforskning, röjning och byggarbete."
+          },
+          {
+            "scope": "närmaste rådgivare",
+            "label": "Högt förtroende",
+            "detail": "Lagertha, Håkon, Sigrid, Knut och flera andra behandlar besluten som vägledande."
+          }
+        ],
+        "current_condition": {
+          "state": "sleeping",
+          "health": "good",
+          "injuries": [],
+          "known_diseases": [],
+          "fatigue": "decreasing"
+        }
+      },
+      {
+        "id": "chr-000002",
+        "type": "person",
+        "status": "active",
+        "refs": [
+          {
+            "target_id": "org-000001",
+            "target_document": "organizations",
+            "relation": "member_of"
+          },
+          {
+            "target_id": "loc-000001",
+            "target_document": "locations",
+            "relation": "currently_at"
+          },
+          {
+            "target_id": "chr-000001",
+            "target_document": "characters",
+            "relation": "spouse_of"
+          }
+        ],
+        "provenance": {
+          "kind": "player_defined",
+          "source_refs": [],
+          "as_of_date": "0800-06-08",
+          "note": "Lagertha definierades av spelaren och utvecklades i kampanjen."
+        },
+        "visibility": {
+          "classification": "player_known",
+          "known_to_character_ids": [
+            "chr-000001"
+          ]
+        },
+        "extensions": {},
+        "name": "Lagertha",
+        "sex": "female",
+        "age_years": 18,
+        "birth_date": null,
+        "life_status": "alive",
+        "role": "Kolonist; Oskars hustru och betrodda följeslagare",
+        "posts": [],
+        "background": "Följer med expeditionen och deltar aktivt i utforskning, vakthållning och beslut.",
+        "military_background": "Har viss verklig stridsvana, mindre än Oskar.",
+        "family_refs": [
+          "chr-000001"
+        ],
+        "organization_ids": [
+          "org-000001"
+        ],
+        "location_id": "loc-000001",
+        "personal_assets": [
+          "svärd",
+          "rundsköld",
+          "yxa",
+          "kniv"
+        ],
+        "goals": [
+          "Bygga ett varaktigt hem med Oskar",
+          "På sikt få barn",
+          "Skydda bosättningen"
+        ],
+        "stats": {
+          "combat": {
+            "level": "måttlig",
+            "detail": "Har verklig men mer begränsad stridserfarenhet."
+          },
+          "leadership": {
+            "level": "måttlig",
+            "detail": "Kan leda mindre grupper och ta ansvar i fält."
+          },
+          "survival": {
+            "level": "god",
+            "detail": "Fungerar väl under hårda och osäkra förhållanden."
+          }
+        },
+        "traits": [
+          {
+            "name": "Modig",
+            "detail": "Tar risker när situationen kräver det."
+          },
+          {
+            "name": "Vaksam",
+            "detail": "Vill att bosättningen förblir uppmärksam även i lugna perioder."
+          },
+          {
+            "name": "Självständig",
+            "detail": "Har egna mål och åsikter och styrs inte direkt av Oskar."
+          }
+        ],
+        "skills": {
+          "yxa": {
+            "level": "god",
+            "detail": "Van vid yxa i arbete och försvar."
+          },
+          "svärd": {
+            "level": "måttlig-god",
+            "detail": "Har praktisk stridserfarenhet."
+          },
+          "ledarskap": {
+            "level": "måttlig",
+            "detail": "Har lett en rekognoseringsstyrka framgångsrikt."
+          }
+        }
+      },
+      {
+        "id": "chr-000003",
+        "type": "person",
+        "status": "active",
+        "refs": [
+          {
+            "target_id": "org-000001",
+            "target_document": "organizations",
+            "relation": "member_of"
+          },
+          {
+            "target_id": "loc-000002",
+            "target_document": "locations",
+            "relation": "currently_at"
+          }
+        ],
+        "provenance": {
+          "kind": "simulated",
+          "source_refs": [],
+          "as_of_date": "0800-06-08",
+          "note": ""
+        },
+        "visibility": {
+          "classification": "player_known",
+          "known_to_character_ids": [
+            "chr-000001"
+          ]
+        },
+        "extensions": {},
+        "name": "Håkon Ketilsson",
+        "sex": null,
+        "age_years": 46,
+        "birth_date": null,
+        "life_status": "alive",
+        "role": "Erfaren skeppare",
+        "posts": [],
+        "background": "Sjöfart och fartygsvård",
+        "military_background": null,
+        "family_refs": [],
+        "organization_ids": [
+          "org-000001"
+        ],
+        "location_id": "loc-000002",
+        "personal_assets": [],
+        "goals": [],
+        "stats": {},
+        "traits": [],
+        "skills": {},
+        "reputation": []
+      },
+      {
+        "id": "chr-000004",
+        "type": "person",
+        "status": "active",
+        "refs": [
+          {
+            "target_id": "org-000001",
+            "target_document": "organizations",
+            "relation": "member_of"
+          },
+          {
+            "target_id": "loc-000001",
+            "target_document": "locations",
+            "relation": "currently_at"
+          }
+        ],
+        "provenance": {
+          "kind": "simulated",
+          "source_refs": [],
+          "as_of_date": "0800-06-08",
+          "note": ""
+        },
+        "visibility": {
+          "classification": "player_known",
+          "known_to_character_ids": [
+            "chr-000001"
+          ]
+        },
+        "extensions": {},
+        "name": "Sigrid Torbjörnsdotter",
+        "sex": null,
+        "age_years": 39,
+        "birth_date": null,
+        "life_status": "alive",
+        "role": "Erfaren gårdsföreståndare",
+        "posts": [],
+        "background": "Organisation, förråd och boskap",
+        "military_background": null,
+        "family_refs": [],
+        "organization_ids": [
+          "org-000001"
+        ],
+        "location_id": "loc-000001",
+        "personal_assets": [],
+        "goals": [],
+        "stats": {},
+        "traits": [],
+        "skills": {},
+        "reputation": []
+      },
+      {
+        "id": "chr-000005",
+        "type": "person",
+        "status": "active",
+        "refs": [
+          {
+            "target_id": "org-000001",
+            "target_document": "organizations",
+            "relation": "member_of"
+          },
+          {
+            "target_id": "loc-000001",
+            "target_document": "locations",
+            "relation": "currently_at"
+          }
+        ],
+        "provenance": {
+          "kind": "simulated",
+          "source_refs": [],
+          "as_of_date": "0800-06-08",
+          "note": ""
+        },
+        "visibility": {
+          "classification": "player_known",
+          "known_to_character_ids": [
+            "chr-000001"
+          ]
+        },
+        "extensions": {},
+        "name": "Orm Geirsson",
+        "sex": null,
+        "age_years": 41,
+        "birth_date": null,
+        "life_status": "alive",
+        "role": "Smed",
+        "posts": [],
+        "background": "Smide och verktygsreparation",
+        "military_background": null,
+        "family_refs": [],
+        "organization_ids": [
+          "org-000001"
+        ],
+        "location_id": "loc-000001",
+        "personal_assets": [],
+        "goals": [],
+        "stats": {},
+        "traits": [],
+        "skills": {},
+        "reputation": []
+      },
+      {
+        "id": "chr-000006",
+        "type": "person",
+        "status": "active",
+        "refs": [
+          {
+            "target_id": "org-000001",
+            "target_document": "organizations",
+            "relation": "member_of"
+          },
+          {
+            "target_id": "loc-000001",
+            "target_document": "locations",
+            "relation": "currently_at"
+          }
+        ],
+        "provenance": {
+          "kind": "simulated",
+          "source_refs": [],
+          "as_of_date": "0800-06-08",
+          "note": ""
+        },
+        "visibility": {
+          "classification": "player_known",
+          "known_to_character_ids": [
+            "chr-000001"
+          ]
+        },
+        "extensions": {},
+        "name": "Ragnvald Ulvsson",
+        "sex": null,
+        "age_years": 35,
+        "birth_date": null,
+        "life_status": "alive",
+        "role": "Erfaren krigare",
+        "posts": [],
+        "background": "Vakthållning och strid",
+        "military_background": null,
+        "family_refs": [],
+        "organization_ids": [
+          "org-000001"
+        ],
+        "location_id": "loc-000001",
+        "personal_assets": [],
+        "goals": [],
+        "stats": {},
+        "traits": [],
+        "skills": {},
+        "reputation": []
+      },
+      {
+        "id": "chr-000007",
+        "type": "person",
+        "status": "active",
+        "refs": [
+          {
+            "target_id": "org-000001",
+            "target_document": "organizations",
+            "relation": "member_of"
+          },
+          {
+            "target_id": "loc-000001",
+            "target_document": "locations",
+            "relation": "currently_at"
+          }
+        ],
+        "provenance": {
+          "kind": "simulated",
+          "source_refs": [],
+          "as_of_date": "0800-06-08",
+          "note": ""
+        },
+        "visibility": {
+          "classification": "player_known",
+          "known_to_character_ids": [
+            "chr-000001"
+          ]
+        },
+        "extensions": {},
+        "name": "Eirik Torvaldsson",
+        "sex": null,
+        "age_years": 46,
+        "birth_date": null,
+        "life_status": "alive",
+        "role": "Skeppsbyggare",
+        "posts": [],
+        "background": "Skeppsbygge och virkesbedömning",
+        "military_background": null,
+        "family_refs": [],
+        "organization_ids": [
+          "org-000001"
+        ],
+        "location_id": "loc-000001",
+        "personal_assets": [],
+        "goals": [],
+        "stats": {},
+        "traits": [],
+        "skills": {},
+        "reputation": []
+      },
+      {
+        "id": "chr-000008",
+        "type": "person",
+        "status": "active",
+        "refs": [
+          {
+            "target_id": "org-000001",
+            "target_document": "organizations",
+            "relation": "member_of"
+          },
+          {
+            "target_id": "loc-000001",
+            "target_document": "locations",
+            "relation": "currently_at"
+          }
+        ],
+        "provenance": {
+          "kind": "simulated",
+          "source_refs": [],
+          "as_of_date": "0800-06-08",
+          "note": ""
+        },
+        "visibility": {
+          "classification": "player_known",
+          "known_to_character_ids": [
+            "chr-000001"
+          ]
+        },
+        "extensions": {},
+        "name": "Torsten Arnsson",
+        "sex": null,
+        "age_years": 34,
+        "birth_date": null,
+        "life_status": "alive",
+        "role": "Spårare och jägare",
+        "posts": [],
+        "background": "Spårning och jakt",
+        "military_background": null,
+        "family_refs": [],
+        "organization_ids": [
+          "org-000001"
+        ],
+        "location_id": "loc-000001",
+        "personal_assets": [],
+        "goals": [],
+        "stats": {},
+        "traits": [],
+        "skills": {},
+        "reputation": []
+      },
+      {
+        "id": "chr-000009",
+        "type": "person",
+        "status": "active",
+        "refs": [
+          {
+            "target_id": "org-000001",
+            "target_document": "organizations",
+            "relation": "member_of"
+          },
+          {
+            "target_id": "loc-000001",
+            "target_document": "locations",
+            "relation": "currently_at"
+          }
+        ],
+        "provenance": {
+          "kind": "simulated",
+          "source_refs": [],
+          "as_of_date": "0800-06-08",
+          "note": ""
+        },
+        "visibility": {
+          "classification": "player_known",
+          "known_to_character_ids": [
+            "chr-000001"
+          ]
+        },
+        "extensions": {},
+        "name": "Björn Hallvardsson",
+        "sex": null,
+        "age_years": 29,
+        "birth_date": null,
+        "life_status": "alive",
+        "role": "Jägare",
+        "posts": [],
+        "background": "Jakt och båge",
+        "military_background": null,
+        "family_refs": [],
+        "organization_ids": [
+          "org-000001"
+        ],
+        "location_id": "loc-000001",
+        "personal_assets": [],
+        "goals": [],
+        "stats": {},
+        "traits": [],
+        "skills": {},
+        "reputation": []
+      },
+      {
+        "id": "chr-000010",
+        "type": "person",
+        "status": "active",
+        "refs": [
+          {
+            "target_id": "org-000001",
+            "target_document": "organizations",
+            "relation": "member_of"
+          },
+          {
+            "target_id": "loc-000001",
+            "target_document": "locations",
+            "relation": "currently_at"
+          }
+        ],
+        "provenance": {
+          "kind": "simulated",
+          "source_refs": [],
+          "as_of_date": "0800-06-08",
+          "note": ""
+        },
+        "visibility": {
+          "classification": "player_known",
+          "known_to_character_ids": [
+            "chr-000001"
+          ]
+        },
+        "extensions": {},
+        "name": "Freydis Ketilsdotter",
+        "sex": null,
+        "age_years": 33,
+        "birth_date": null,
+        "life_status": "alive",
+        "role": "Växt- och läkekunnig",
+        "posts": [],
+        "background": "Växter och enklare läkekunskap",
+        "military_background": null,
+        "family_refs": [],
+        "organization_ids": [
+          "org-000001"
+        ],
+        "location_id": "loc-000001",
+        "personal_assets": [],
+        "goals": [],
+        "stats": {},
+        "traits": [],
+        "skills": {},
+        "reputation": []
+      },
+      {
+        "id": "chr-000011",
+        "type": "person",
+        "status": "active",
+        "refs": [
+          {
+            "target_id": "org-000001",
+            "target_document": "organizations",
+            "relation": "member_of"
+          },
+          {
+            "target_id": "loc-000001",
+            "target_document": "locations",
+            "relation": "currently_at"
+          }
+        ],
+        "provenance": {
+          "kind": "simulated",
+          "source_refs": [],
+          "as_of_date": "0800-06-08",
+          "note": ""
+        },
+        "visibility": {
+          "classification": "player_known",
+          "known_to_character_ids": [
+            "chr-000001"
+          ]
+        },
+        "extensions": {},
+        "name": "Hallgrim Eiriksson",
+        "sex": null,
+        "age_years": 37,
+        "birth_date": null,
+        "life_status": "alive",
+        "role": "Timmerman",
+        "posts": [],
+        "background": "Byggande och timmerarbete",
+        "military_background": null,
+        "family_refs": [],
+        "organization_ids": [
+          "org-000001"
+        ],
+        "location_id": "loc-000001",
+        "personal_assets": [],
+        "goals": [],
+        "stats": {},
+        "traits": [],
+        "skills": {},
+        "reputation": []
+      },
+      {
+        "id": "chr-000012",
+        "type": "person",
+        "status": "active",
+        "refs": [
+          {
+            "target_id": "org-000001",
+            "target_document": "organizations",
+            "relation": "member_of"
+          },
+          {
+            "target_id": "loc-000001",
+            "target_document": "locations",
+            "relation": "currently_at"
+          }
+        ],
+        "provenance": {
+          "kind": "simulated",
+          "source_refs": [],
+          "as_of_date": "0800-06-08",
+          "note": ""
+        },
+        "visibility": {
+          "classification": "player_known",
+          "known_to_character_ids": [
+            "chr-000001"
+          ]
+        },
+        "extensions": {},
+        "name": "Knut Sigvardsson",
+        "sex": null,
+        "age_years": 43,
+        "birth_date": null,
+        "life_status": "alive",
+        "role": "Bonde",
+        "posts": [],
+        "background": "Jordbruk och jordbedömning",
+        "military_background": null,
+        "family_refs": [],
+        "organization_ids": [
+          "org-000001"
+        ],
+        "location_id": "loc-000001",
+        "personal_assets": [],
+        "goals": [],
+        "stats": {},
+        "traits": [],
+        "skills": {},
+        "reputation": []
+      },
+      {
+        "id": "chr-000013",
+        "type": "person",
+        "status": "active",
+        "refs": [
+          {
+            "target_id": "org-000001",
+            "target_document": "organizations",
+            "relation": "member_of"
+          },
+          {
+            "target_id": "loc-000001",
+            "target_document": "locations",
+            "relation": "currently_at"
+          }
+        ],
+        "provenance": {
+          "kind": "simulated",
+          "source_refs": [],
+          "as_of_date": "0800-06-08",
+          "note": ""
+        },
+        "visibility": {
+          "classification": "player_known",
+          "known_to_character_ids": [
+            "chr-000001"
+          ]
+        },
+        "extensions": {},
+        "name": "Åsa Gudbrandsdotter",
+        "sex": null,
+        "age_years": 36,
+        "birth_date": null,
+        "life_status": "alive",
+        "role": "Boskapsskötare",
+        "posts": [],
+        "background": "Boskap och jordbruk",
+        "military_background": null,
+        "family_refs": [],
+        "organization_ids": [
+          "org-000001"
+        ],
+        "location_id": "loc-000001",
+        "personal_assets": [],
+        "goals": [],
+        "stats": {},
+        "traits": [],
+        "skills": {},
+        "reputation": []
+      },
+      {
+        "id": "chr-000014",
+        "type": "person",
+        "status": "active",
+        "refs": [
+          {
+            "target_id": "org-000001",
+            "target_document": "organizations",
+            "relation": "member_of"
+          },
+          {
+            "target_id": "loc-000001",
+            "target_document": "locations",
+            "relation": "currently_at"
+          }
+        ],
+        "provenance": {
+          "kind": "simulated",
+          "source_refs": [],
+          "as_of_date": "0800-06-08",
+          "note": ""
+        },
+        "visibility": {
+          "classification": "player_known",
+          "known_to_character_ids": [
+            "chr-000001"
+          ]
+        },
+        "extensions": {},
+        "name": "Styrbjörn Hrolfsson",
+        "sex": null,
+        "age_years": 48,
+        "birth_date": null,
+        "life_status": "alive",
+        "role": "Skeppsbyggare",
+        "posts": [],
+        "background": "Skeppsbygge, virke och träurval",
+        "military_background": null,
+        "family_refs": [],
+        "organization_ids": [
+          "org-000001"
+        ],
+        "location_id": "loc-000001",
+        "personal_assets": [],
+        "goals": [],
+        "stats": {},
+        "traits": [],
+        "skills": {},
+        "reputation": []
+      },
+      {
+        "id": "chr-000015",
+        "type": "person",
+        "status": "active",
+        "refs": [
+          {
+            "target_id": "org-000001",
+            "target_document": "organizations",
+            "relation": "member_of"
+          },
+          {
+            "target_id": "loc-000001",
+            "target_document": "locations",
+            "relation": "currently_at"
+          }
+        ],
+        "provenance": {
+          "kind": "simulated",
+          "source_refs": [],
+          "as_of_date": "0800-06-08",
+          "note": ""
+        },
+        "visibility": {
+          "classification": "player_known",
+          "known_to_character_ids": [
+            "chr-000001"
+          ]
+        },
+        "extensions": {},
+        "name": "Hemming Aslaksson",
+        "sex": null,
+        "age_years": 27,
+        "birth_date": null,
+        "life_status": "alive",
+        "role": "Spjutman",
+        "posts": [],
+        "background": "Strid",
+        "military_background": null,
+        "family_refs": [],
+        "organization_ids": [
+          "org-000001"
+        ],
+        "location_id": "loc-000001",
+        "personal_assets": [],
+        "goals": [],
+        "stats": {},
+        "traits": [],
+        "skills": {},
+        "reputation": []
+      },
+      {
+        "id": "chr-000016",
+        "type": "person",
+        "status": "active",
+        "refs": [
+          {
+            "target_id": "org-000001",
+            "target_document": "organizations",
+            "relation": "member_of"
+          },
+          {
+            "target_id": "loc-000001",
+            "target_document": "locations",
+            "relation": "currently_at"
+          }
+        ],
+        "provenance": {
+          "kind": "simulated",
+          "source_refs": [],
+          "as_of_date": "0800-06-08",
+          "note": ""
+        },
+        "visibility": {
+          "classification": "player_known",
+          "known_to_character_ids": [
+            "chr-000001"
+          ]
+        },
+        "extensions": {},
+        "name": "Ulf Brandsson",
+        "sex": null,
+        "age_years": 32,
+        "birth_date": null,
+        "life_status": "alive",
+        "role": "Bågskytt",
+        "posts": [],
+        "background": "Bågskytte och jakt",
+        "military_background": null,
+        "family_refs": [],
+        "organization_ids": [
+          "org-000001"
+        ],
+        "location_id": "loc-000001",
+        "personal_assets": [],
+        "goals": [],
+        "stats": {},
+        "traits": [],
+        "skills": {},
+        "reputation": []
+      },
+      {
+        "id": "chr-000017",
+        "type": "person",
+        "status": "active",
+        "refs": [
+          {
+            "target_id": "org-000001",
+            "target_document": "organizations",
+            "relation": "member_of"
+          },
+          {
+            "target_id": "loc-000001",
+            "target_document": "locations",
+            "relation": "currently_at"
+          }
+        ],
+        "provenance": {
+          "kind": "simulated",
+          "source_refs": [],
+          "as_of_date": "0800-06-08",
+          "note": ""
+        },
+        "visibility": {
+          "classification": "player_known",
+          "known_to_character_ids": [
+            "chr-000001"
+          ]
+        },
+        "extensions": {},
+        "name": "Sven Torgrimsson",
+        "sex": null,
+        "age_years": 23,
+        "birth_date": null,
+        "life_status": "alive",
+        "role": "Krigare",
+        "posts": [],
+        "background": "Strid",
+        "military_background": null,
+        "family_refs": [],
+        "organization_ids": [
+          "org-000001"
+        ],
+        "location_id": "loc-000001",
+        "personal_assets": [],
+        "goals": [],
+        "stats": {},
+        "traits": [],
+        "skills": {},
+        "reputation": []
+      },
+      {
+        "id": "chr-000018",
+        "type": "person",
+        "status": "active",
+        "refs": [
+          {
+            "target_id": "org-000001",
+            "target_document": "organizations",
+            "relation": "member_of"
+          },
+          {
+            "target_id": "loc-000001",
+            "target_document": "locations",
+            "relation": "currently_at"
+          }
+        ],
+        "provenance": {
+          "kind": "simulated",
+          "source_refs": [],
+          "as_of_date": "0800-06-08",
+          "note": ""
+        },
+        "visibility": {
+          "classification": "player_known",
+          "known_to_character_ids": [
+            "chr-000001"
+          ]
+        },
+        "extensions": {},
+        "name": "Runa Håkonsdotter",
+        "sex": null,
+        "age_years": 26,
+        "birth_date": null,
+        "life_status": "alive",
+        "role": "Jägare",
+        "posts": [],
+        "background": "Jakt och yxa",
+        "military_background": null,
+        "family_refs": [],
+        "organization_ids": [
+          "org-000001"
+        ],
+        "location_id": "loc-000001",
+        "personal_assets": [],
+        "goals": [],
+        "stats": {},
+        "traits": [],
+        "skills": {},
+        "reputation": []
+      },
+      {
+        "id": "chr-000019",
+        "type": "person",
+        "status": "active",
+        "refs": [
+          {
+            "target_id": "org-000001",
+            "target_document": "organizations",
+            "relation": "member_of"
+          },
+          {
+            "target_id": "loc-000001",
+            "target_document": "locations",
+            "relation": "currently_at"
+          }
+        ],
+        "provenance": {
+          "kind": "simulated",
+          "source_refs": [],
+          "as_of_date": "0800-06-08",
+          "note": ""
+        },
+        "visibility": {
+          "classification": "player_known",
+          "known_to_character_ids": [
+            "chr-000001"
+          ]
+        },
+        "extensions": {},
+        "name": "Ingrid Hallsteinsdotter",
+        "sex": null,
+        "age_years": 42,
+        "birth_date": null,
+        "life_status": "alive",
+        "role": "Mat- och växtkunnig",
+        "posts": [],
+        "background": "Matförvaring och insamling",
+        "military_background": null,
+        "family_refs": [],
+        "organization_ids": [
+          "org-000001"
+        ],
+        "location_id": "loc-000001",
+        "personal_assets": [],
+        "goals": [],
+        "stats": {},
+        "traits": [],
+        "skills": {},
+        "reputation": []
+      },
+      {
+        "id": "chr-000020",
+        "type": "person",
+        "status": "active",
+        "refs": [
+          {
+            "target_id": "org-000001",
+            "target_document": "organizations",
+            "relation": "member_of"
+          },
+          {
+            "target_id": "loc-000001",
+            "target_document": "locations",
+            "relation": "currently_at"
+          }
+        ],
+        "provenance": {
+          "kind": "simulated",
+          "source_refs": [],
+          "as_of_date": "0800-06-08",
+          "note": ""
+        },
+        "visibility": {
+          "classification": "player_known",
+          "known_to_character_ids": [
+            "chr-000001"
+          ]
+        },
+        "extensions": {},
+        "name": "Egil Kåresson",
+        "sex": null,
+        "age_years": 39,
+        "birth_date": null,
+        "life_status": "alive",
+        "role": "Fiskare",
+        "posts": [],
+        "background": "Fiske och vattenbedömning",
+        "military_background": null,
+        "family_refs": [],
+        "organization_ids": [
+          "org-000001"
+        ],
+        "location_id": "loc-000001",
+        "personal_assets": [],
+        "goals": [],
+        "stats": {},
+        "traits": [],
+        "skills": {},
+        "reputation": []
+      },
+      {
+        "id": "chr-000021",
+        "type": "person",
+        "status": "active",
+        "refs": [
+          {
+            "target_id": "org-000001",
+            "target_document": "organizations",
+            "relation": "member_of"
+          },
+          {
+            "target_id": "loc-000001",
+            "target_document": "locations",
+            "relation": "currently_at"
+          }
+        ],
+        "provenance": {
+          "kind": "simulated",
+          "source_refs": [],
+          "as_of_date": "0800-06-08",
+          "note": ""
+        },
+        "visibility": {
+          "classification": "player_known",
+          "known_to_character_ids": [
+            "chr-000001"
+          ]
+        },
+        "extensions": {},
+        "name": "Arne Geirsson",
+        "sex": null,
+        "age_years": 41,
+        "birth_date": null,
+        "life_status": "alive",
+        "role": "Träarbetare",
+        "posts": [],
+        "background": "Träarbete och terrängbedömning",
+        "military_background": null,
+        "family_refs": [],
+        "organization_ids": [
+          "org-000001"
+        ],
+        "location_id": "loc-000001",
+        "personal_assets": [],
+        "goals": [],
+        "stats": {},
+        "traits": [],
+        "skills": {},
+        "reputation": []
+      },
+      {
+        "id": "chr-000022",
+        "type": "person",
+        "status": "active",
+        "refs": [
+          {
+            "target_id": "org-000001",
+            "target_document": "organizations",
+            "relation": "member_of"
+          },
+          {
+            "target_id": "loc-000001",
+            "target_document": "locations",
+            "relation": "currently_at"
+          }
+        ],
+        "provenance": {
+          "kind": "simulated",
+          "source_refs": [],
+          "as_of_date": "0800-06-08",
+          "note": ""
+        },
+        "visibility": {
+          "classification": "player_known",
+          "known_to_character_ids": [
+            "chr-000001"
+          ]
+        },
+        "extensions": {},
+        "name": "Solveig Tordsdotter",
+        "sex": null,
+        "age_years": 30,
+        "birth_date": null,
+        "life_status": "alive",
+        "role": "Textilhantverkare",
+        "posts": [],
+        "background": "Vävning, hushåll och insamling",
+        "military_background": null,
+        "family_refs": [],
+        "organization_ids": [
+          "org-000001"
+        ],
+        "location_id": "loc-000001",
+        "personal_assets": [],
+        "goals": [],
+        "stats": {},
+        "traits": [],
+        "skills": {},
+        "reputation": []
+      },
+      {
+        "id": "chr-000023",
+        "type": "person",
+        "status": "active",
+        "refs": [
+          {
+            "target_id": "org-000001",
+            "target_document": "organizations",
+            "relation": "member_of"
+          },
+          {
+            "target_id": "loc-000001",
+            "target_document": "locations",
+            "relation": "currently_at"
+          }
+        ],
+        "provenance": {
+          "kind": "simulated",
+          "source_refs": [],
+          "as_of_date": "0800-06-08",
+          "note": ""
+        },
+        "visibility": {
+          "classification": "player_known",
+          "known_to_character_ids": [
+            "chr-000001"
+          ]
+        },
+        "extensions": {},
+        "name": "Toste Arnfastsson",
+        "sex": null,
+        "age_years": 31,
+        "birth_date": null,
+        "life_status": "alive",
+        "role": "Sjöman och krigare",
+        "posts": [],
+        "background": "Sjövana och strid",
+        "military_background": null,
+        "family_refs": [],
+        "organization_ids": [
+          "org-000001"
+        ],
+        "location_id": "loc-000001",
+        "personal_assets": [],
+        "goals": [],
+        "stats": {},
+        "traits": [],
+        "skills": {},
+        "reputation": []
+      },
+      {
+        "id": "chr-000024",
+        "type": "person",
+        "status": "active",
+        "refs": [
+          {
+            "target_id": "org-000001",
+            "target_document": "organizations",
+            "relation": "member_of"
+          },
+          {
+            "target_id": "loc-000001",
+            "target_document": "locations",
+            "relation": "currently_at"
+          }
+        ],
+        "provenance": {
+          "kind": "simulated",
+          "source_refs": [],
+          "as_of_date": "0800-06-08",
+          "note": ""
+        },
+        "visibility": {
+          "classification": "player_known",
+          "known_to_character_ids": [
+            "chr-000001"
+          ]
+        },
+        "extensions": {},
+        "name": "Gudmund Ketilsson",
+        "sex": null,
+        "age_years": 24,
+        "birth_date": null,
+        "life_status": "alive",
+        "role": "Spjutman",
+        "posts": [],
+        "background": "Strid",
+        "military_background": null,
+        "family_refs": [],
+        "organization_ids": [
+          "org-000001"
+        ],
+        "location_id": "loc-000001",
+        "personal_assets": [],
+        "goals": [],
+        "stats": {},
+        "traits": [],
+        "skills": {},
+        "reputation": []
+      },
+      {
+        "id": "chr-000025",
+        "type": "person",
+        "status": "active",
+        "refs": [
+          {
+            "target_id": "org-000001",
+            "target_document": "organizations",
+            "relation": "member_of"
+          },
+          {
+            "target_id": "loc-000001",
+            "target_document": "locations",
+            "relation": "currently_at"
+          }
+        ],
+        "provenance": {
+          "kind": "simulated",
+          "source_refs": [],
+          "as_of_date": "0800-06-08",
+          "note": ""
+        },
+        "visibility": {
+          "classification": "player_known",
+          "known_to_character_ids": [
+            "chr-000001"
+          ]
+        },
+        "extensions": {},
+        "name": "Asgeir Finnsson",
+        "sex": null,
+        "age_years": 19,
+        "birth_date": null,
+        "life_status": "alive",
+        "role": "Kolonist",
+        "posts": [],
+        "background": "Arbete; återhämtar sig från tidigare yxskada",
+        "military_background": null,
+        "family_refs": [],
+        "organization_ids": [
+          "org-000001"
+        ],
+        "location_id": "loc-000001",
+        "personal_assets": [],
+        "goals": [],
+        "stats": {},
+        "traits": [],
+        "skills": {},
+        "reputation": []
+      }
+    ]
+  },
+  "extensions": {}
+}

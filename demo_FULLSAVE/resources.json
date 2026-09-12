@@ -1,0 +1,19 @@
+{
+  "resources": [
+    {
+      "id": "RES-000001",
+      "name": "Stållager",
+      "amount": 120,
+      "unit": "ton",
+      "location_id": "LOC-000002",
+      "owner_id": "ORG-000001"
+    },
+    {
+      "id": "RES-000002",
+      "name": "Forskningsanslag",
+      "amount": 250000,
+      "unit": "demokronor",
+      "owner_id": "ORG-000002"
+    }
+  ]
+}

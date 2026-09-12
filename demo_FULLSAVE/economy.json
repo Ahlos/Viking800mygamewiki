@@ -1,0 +1,11 @@
+{
+  "currency": "Demokronor",
+  "budget": 2500000,
+  "description": "Enbart exempelvärden.",
+  "allocations": [
+    {
+      "project_id": "PRO-000001",
+      "amount": 750000
+    }
+  ]
+}

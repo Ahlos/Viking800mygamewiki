@@ -1,0 +1,116 @@
+{
+  "format": "STATSSPELET",
+  "format_version": "1.0.0",
+  "campaign_id": "cmp-nordkoloni-0800-001",
+  "document_type": "game_state",
+  "document_revision": 0,
+  "coverage": "complete",
+  "coverage_note": "Komplett för all etablerad kampanjkanon som hör till dokumentets domän i denna snapshot.",
+  "data": {
+    "campaign": {
+      "id": "cmp-nordkoloni-0800-001",
+      "country_location_id": null,
+      "start_date": "0800-06-01",
+      "divergence_date": "0800-06-01",
+      "setup_phase": "active_campaign",
+      "name": "Nordisk kolonisation år 800",
+      "modern_geographic_anchor_gm_only": "området som i modern geografi motsvarar Charlottetown, Prince Edward Island"
+    },
+    "clock": {
+      "turn": 8,
+      "game_date": "0800-06-08",
+      "turn_length": "4_hours",
+      "intra_turn_sequence": 1,
+      "local_time": "01:05"
+    },
+    "player_character_id": "chr-000001",
+    "simulation_status": "paused_admin",
+    "resume_context": {
+      "phase": "sleep",
+      "scene": "Oskar sover i det färdiga bostadshuset vid Vestrhóll.",
+      "pending_player_input": "Sova vidare eller vakna.",
+      "pending_orders": [],
+      "last_presented_options": [
+        "sova vidare",
+        "vakna"
+      ],
+      "processing_cursor": "sleep_turn_completed_at_0800-06-08T01:05"
+    },
+    "world_context": {
+      "era": "omkring år 800",
+      "technology": "nordisk yngre järnålder/tidig vikingatid",
+      "contact_with_nordic_homeland": "none",
+      "known_world_scope": "endast expeditionens observerade närområde",
+      "narration_tense": "present",
+      "information_policy": "strict_player_fog_of_war"
+    },
+    "sources": [
+      {
+        "id": "src-000001",
+        "type": "source",
+        "status": "active",
+        "refs": [],
+        "provenance": {
+          "kind": "real_world_verified",
+          "source_refs": [],
+          "as_of_date": "0800-06-08",
+          "note": "Styrdokument tillgängligt som uppladdad/skapad fil."
+        },
+        "visibility": {
+          "classification": "gm_only",
+          "known_to_character_ids": []
+        },
+        "extensions": {},
+        "title": "STATSSPELET_Masterprompt_v3.1.md",
+        "url": null,
+        "file_name": "STATSSPELET_Masterprompt_v3.1.md",
+        "relevant_date": "2026-09-12",
+        "section": "hela dokumentet",
+        "supports": "Spelregler och sparprotokoll"
+      },
+      {
+        "id": "src-000002",
+        "type": "source",
+        "status": "active",
+        "refs": [],
+        "provenance": {
+          "kind": "player_defined",
+          "source_refs": [],
+          "as_of_date": "0800-06-08",
+          "note": "Aktuell chatt är primär källa till kampanjbeslut."
+        },
+        "visibility": {
+          "classification": "gm_only",
+          "known_to_character_ids": []
+        },
+        "extensions": {},
+        "title": "Aktuell STATSSPELET-chatt",
+        "url": null,
+        "file_name": null,
+        "relevant_date": "2026-09-12",
+        "section": "kampanjhistorik",
+        "supports": "Spelarbeslut, dialog, regler och aktuellt läge"
+      }
+    ],
+    "randomness": {
+      "mode": "narrative",
+      "algorithm": null,
+      "seed": null,
+      "state": null,
+      "draw_log_refs": []
+    },
+    "processing_ledger": [
+      {
+        "application_key": "settlement-vestrholl-established",
+        "source_ref": "con-000002",
+        "target_refs": [
+          "loc-000001"
+        ],
+        "turn": 4,
+        "date": "0800-06-04",
+        "status": "applied"
+      }
+    ]
+  },
+  "extensions": {}
+}

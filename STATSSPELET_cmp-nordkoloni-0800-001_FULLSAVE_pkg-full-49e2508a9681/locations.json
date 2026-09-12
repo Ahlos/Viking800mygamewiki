@@ -1,0 +1,207 @@
+{
+  "format": "STATSSPELET",
+  "format_version": "1.0.0",
+  "campaign_id": "cmp-nordkoloni-0800-001",
+  "document_type": "locations",
+  "document_revision": 0,
+  "coverage": "complete",
+  "coverage_note": "Komplett för all etablerad kampanjkanon som hör till dokumentets domän i denna snapshot.",
+  "data": {
+    "locations": [
+      {
+        "id": "loc-000001",
+        "type": "settlement_site",
+        "status": "active",
+        "refs": [
+          {
+            "target_id": "org-000001",
+            "target_document": "organizations",
+            "relation": "occupied_by"
+          }
+        ],
+        "provenance": {
+          "kind": "simulated",
+          "source_refs": [],
+          "as_of_date": "0800-06-08",
+          "note": ""
+        },
+        "visibility": {
+          "classification": "player_known",
+          "known_to_character_ids": [
+            "chr-000001"
+          ]
+        },
+        "extensions": {},
+        "name": "Vestrhóll",
+        "parent_location_id": null,
+        "owner_organization_id": "org-000001",
+        "control": "Nordiska kolonisationsexpeditionen",
+        "properties": [
+          "huvudbosättning",
+          "högre mark",
+          "färskvatten",
+          "mycket virke",
+          "lovande odlingsmark i närheten"
+        ]
+      },
+      {
+        "id": "loc-000002",
+        "type": "coastal_camp",
+        "status": "active",
+        "refs": [
+          {
+            "target_id": "org-000001",
+            "target_document": "organizations",
+            "relation": "occupied_by"
+          }
+        ],
+        "provenance": {
+          "kind": "simulated",
+          "source_refs": [],
+          "as_of_date": "0800-06-08",
+          "note": ""
+        },
+        "visibility": {
+          "classification": "player_known",
+          "known_to_character_ids": [
+            "chr-000001"
+          ]
+        },
+        "extensions": {},
+        "name": "Strandbúðir",
+        "parent_location_id": null,
+        "owner_organization_id": "org-000001",
+        "control": "Nordiska kolonisationsexpeditionen",
+        "properties": [
+          "ursprunglig landstigningsplats",
+          "skeppsplats",
+          "7 fartyg under bevakning"
+        ]
+      },
+      {
+        "id": "loc-000003",
+        "type": "known_area",
+        "status": "active",
+        "refs": [],
+        "provenance": {
+          "kind": "simulated",
+          "source_refs": [],
+          "as_of_date": "0800-06-08",
+          "note": ""
+        },
+        "visibility": {
+          "classification": "player_known",
+          "known_to_character_ids": [
+            "chr-000001"
+          ]
+        },
+        "extensions": {},
+        "name": "Landshaugr",
+        "parent_location_id": null,
+        "owner_organization_id": null,
+        "control": null,
+        "properties": [
+          "tidigare möjlig boplats",
+          "nära landstigningen",
+          "känd färskvattenkälla"
+        ]
+      },
+      {
+        "id": "loc-000004",
+        "type": "known_area",
+        "status": "active",
+        "refs": [],
+        "provenance": {
+          "kind": "simulated",
+          "source_refs": [],
+          "as_of_date": "0800-06-08",
+          "note": ""
+        },
+        "visibility": {
+          "classification": "player_known",
+          "known_to_character_ids": [
+            "chr-000001"
+          ]
+        },
+        "extensions": {},
+        "name": "Austrengi",
+        "parent_location_id": null,
+        "owner_organization_id": null,
+        "control": null,
+        "properties": [
+          "gott fiske",
+          "bra bete",
+          "färskvatten",
+          "våtare markpartier"
+        ]
+      },
+      {
+        "id": "loc-000005",
+        "type": "agricultural_area",
+        "status": "active",
+        "refs": [
+          {
+            "target_id": "loc-000001",
+            "target_document": "locations",
+            "relation": "within_or_adjacent_to"
+          }
+        ],
+        "provenance": {
+          "kind": "simulated",
+          "source_refs": [],
+          "as_of_date": "0800-06-08",
+          "note": ""
+        },
+        "visibility": {
+          "classification": "player_known",
+          "known_to_character_ids": [
+            "chr-000001"
+          ]
+        },
+        "extensions": {},
+        "name": "Akrlendi",
+        "parent_location_id": "loc-000001",
+        "owner_organization_id": "org-000001",
+        "control": "Nordiska kolonisationsexpeditionen",
+        "properties": [
+          "reserverad framtida åkermark",
+          "ännu inte röjd för odling"
+        ]
+      },
+      {
+        "id": "loc-000006",
+        "type": "building_area",
+        "status": "active",
+        "refs": [
+          {
+            "target_id": "loc-000001",
+            "target_document": "locations",
+            "relation": "within"
+          }
+        ],
+        "provenance": {
+          "kind": "simulated",
+          "source_refs": [],
+          "as_of_date": "0800-06-08",
+          "note": ""
+        },
+        "visibility": {
+          "classification": "player_known",
+          "known_to_character_ids": [
+            "chr-000001"
+          ]
+        },
+        "extensions": {},
+        "name": "Bústaðr",
+        "parent_location_id": "loc-000001",
+        "owner_organization_id": "org-000001",
+        "control": "Nordiska kolonisationsexpeditionen",
+        "properties": [
+          "röjt byggområde",
+          "första permanenta byggnaderna"
+        ]
+      }
+    ]
+  },
+  "extensions": {}
+}

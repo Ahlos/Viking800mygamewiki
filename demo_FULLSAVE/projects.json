@@ -1,0 +1,30 @@
+{
+  "projects": [
+    {
+      "id": "PRO-000001",
+      "name": "Nordhamns nya hamn",
+      "status": "Planering",
+      "start_date": "2030-04-02",
+      "description": "Projektet sammanför rådets beslut, tillgängliga resurser och arbetet vid Östra varvet.",
+      "leader_id": "PER-000001",
+      "organization_id": "ORG-000001",
+      "location_id": "LOC-000002",
+      "resource_ids": [
+        "RES-000001"
+      ],
+      "decision_id": "DEC-000001",
+      "budget": 750000
+    },
+    {
+      "id": "PRO-000002",
+      "name": "Översyn av Lodet",
+      "status": "Pågående",
+      "start_date": "2030-04-10",
+      "leader_id": "PER-000002",
+      "ship_id": "SHIP-000001",
+      "resource_ids": [
+        "RES-000002"
+      ]
+    }
+  ]
+}

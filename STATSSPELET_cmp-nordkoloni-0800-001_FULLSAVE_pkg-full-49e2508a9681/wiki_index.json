@@ -1,0 +1,69 @@
+{
+  "format": "STATSSPELET",
+  "format_version": "1.0.0",
+  "campaign_id": "cmp-nordkoloni-0800-001",
+  "document_type": "wiki_index",
+  "document_revision": 0,
+  "coverage": "complete",
+  "coverage_note": "Komplett för all etablerad kampanjkanon som hör till dokumentets domän i denna snapshot.",
+  "data": {
+    "generated_from_state_revision": 0,
+    "entries": [
+      {
+        "id": "wik-000001",
+        "title": "Oskar",
+        "type": "character",
+        "aliases": [],
+        "primary_refs": [
+          "chr-000001"
+        ],
+        "related_article_ids": [
+          "wik-000002",
+          "wik-000003"
+        ],
+        "visibility": "player_known"
+      },
+      {
+        "id": "wik-000002",
+        "title": "Lagertha",
+        "type": "character",
+        "aliases": [],
+        "primary_refs": [
+          "chr-000002"
+        ],
+        "related_article_ids": [
+          "wik-000001",
+          "wik-000003"
+        ],
+        "visibility": "player_known"
+      },
+      {
+        "id": "wik-000003",
+        "title": "Vestrhóll",
+        "type": "location",
+        "aliases": [],
+        "primary_refs": [
+          "loc-000001"
+        ],
+        "related_article_ids": [
+          "wik-000004"
+        ],
+        "visibility": "player_known"
+      },
+      {
+        "id": "wik-000004",
+        "title": "Strandbúðir",
+        "type": "location",
+        "aliases": [],
+        "primary_refs": [
+          "loc-000002"
+        ],
+        "related_article_ids": [
+          "wik-000003"
+        ],
+        "visibility": "player_known"
+      }
+    ]
+  },
+  "extensions": {}
+}

@@ -1,0 +1,14 @@
+{
+  "rules": [
+    {
+      "id": "RULE-000001",
+      "title": "Demodata",
+      "description": "Alla personer, platser och händelser i detta paket är påhittade testdata."
+    },
+    {
+      "id": "RULE-000002",
+      "title": "Läsläge",
+      "description": "Wikin visar sparningen och ändrar aldrig speltillståndet."
+    }
+  ]
+}

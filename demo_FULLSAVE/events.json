@@ -1,0 +1,32 @@
+{
+  "events": [
+    {
+      "id": "EVT-000001",
+      "title": "Rådet samlas",
+      "date": "2030-04-01",
+      "turn": 1,
+      "description": "Det fiktiva rådet samlas för att diskutera hamnens framtid.",
+      "organization_id": "ORG-000001",
+      "participant_ids": [
+        "PER-000001",
+        "PER-000003"
+      ]
+    },
+    {
+      "id": "EVT-000002",
+      "title": "Lodet anländer till varvet",
+      "date": "2030-04-10",
+      "turn": 10,
+      "ship_id": "SHIP-000001",
+      "location_id": "LOC-000002"
+    },
+    {
+      "id": "EVT-000003",
+      "title": "Teknisk genomgång slutförd",
+      "date": "2030-04-12",
+      "turn": 12,
+      "character_id": "PER-000002",
+      "project_id": "PRO-000002"
+    }
+  ]
+}

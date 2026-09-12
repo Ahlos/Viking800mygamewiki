@@ -1,0 +1,188 @@
+{
+  "format": "STATSSPELET",
+  "format_version": "1.0.0",
+  "campaign_id": "cmp-nordkoloni-0800-001",
+  "document_type": "timeline",
+  "document_revision": 0,
+  "coverage": "complete",
+  "coverage_note": "Komplett för all etablerad kampanjkanon som hör till dokumentets domän i denna snapshot.",
+  "data": {
+    "entries": [
+      {
+        "id": "tle-000001",
+        "type": "timeline_entry",
+        "status": "active",
+        "refs": [
+          {
+            "target_id": "evt-000001",
+            "target_document": "events",
+            "relation": "source"
+          }
+        ],
+        "provenance": {
+          "kind": "simulated",
+          "source_refs": [],
+          "as_of_date": "0800-06-08",
+          "note": ""
+        },
+        "visibility": {
+          "classification": "player_known",
+          "known_to_character_ids": [
+            "chr-000001"
+          ]
+        },
+        "extensions": {},
+        "date": "0800-06-01",
+        "sequence": 1,
+        "source_id": "evt-000001",
+        "summary": "Landstigning vid Strandbúðir."
+      },
+      {
+        "id": "tle-000002",
+        "type": "timeline_entry",
+        "status": "active",
+        "refs": [
+          {
+            "target_id": "evt-000002",
+            "target_document": "events",
+            "relation": "source"
+          }
+        ],
+        "provenance": {
+          "kind": "simulated",
+          "source_refs": [],
+          "as_of_date": "0800-06-08",
+          "note": ""
+        },
+        "visibility": {
+          "classification": "player_known",
+          "known_to_character_ids": [
+            "chr-000001"
+          ]
+        },
+        "extensions": {},
+        "date": "0800-06-02",
+        "sequence": 1,
+        "source_id": "evt-000002",
+        "summary": "Första större rekognoseringen."
+      },
+      {
+        "id": "tle-000003",
+        "type": "timeline_entry",
+        "status": "active",
+        "refs": [
+          {
+            "target_id": "evt-000003",
+            "target_document": "events",
+            "relation": "source"
+          }
+        ],
+        "provenance": {
+          "kind": "simulated",
+          "source_refs": [],
+          "as_of_date": "0800-06-08",
+          "note": ""
+        },
+        "visibility": {
+          "classification": "player_known",
+          "known_to_character_ids": [
+            "chr-000001"
+          ]
+        },
+        "extensions": {},
+        "date": "0800-06-03",
+        "sequence": 1,
+        "source_id": "evt-000003",
+        "summary": "Inlandsrekognosering och markerade leder."
+      },
+      {
+        "id": "tle-000004",
+        "type": "timeline_entry",
+        "status": "active",
+        "refs": [
+          {
+            "target_id": "evt-000004",
+            "target_document": "events",
+            "relation": "source"
+          }
+        ],
+        "provenance": {
+          "kind": "simulated",
+          "source_refs": [],
+          "as_of_date": "0800-06-08",
+          "note": ""
+        },
+        "visibility": {
+          "classification": "player_known",
+          "known_to_character_ids": [
+            "chr-000001"
+          ]
+        },
+        "extensions": {},
+        "date": "0800-06-04",
+        "sequence": 1,
+        "source_id": "evt-000004",
+        "summary": "Vestrhóll blir huvudbosättning."
+      },
+      {
+        "id": "tle-000005",
+        "type": "timeline_entry",
+        "status": "active",
+        "refs": [
+          {
+            "target_id": "evt-000005",
+            "target_document": "events",
+            "relation": "source"
+          }
+        ],
+        "provenance": {
+          "kind": "simulated",
+          "source_refs": [],
+          "as_of_date": "0800-06-08",
+          "note": ""
+        },
+        "visibility": {
+          "classification": "player_known",
+          "known_to_character_ids": [
+            "chr-000001"
+          ]
+        },
+        "extensions": {},
+        "date": "0800-06-07",
+        "sequence": 1,
+        "source_id": "evt-000005",
+        "summary": "Enkel smedja tas i bruk."
+      },
+      {
+        "id": "tle-000006",
+        "type": "timeline_entry",
+        "status": "active",
+        "refs": [
+          {
+            "target_id": "evt-000006",
+            "target_document": "events",
+            "relation": "source"
+          }
+        ],
+        "provenance": {
+          "kind": "simulated",
+          "source_refs": [],
+          "as_of_date": "0800-06-08",
+          "note": ""
+        },
+        "visibility": {
+          "classification": "player_known",
+          "known_to_character_ids": [
+            "chr-000001"
+          ]
+        },
+        "extensions": {},
+        "date": "0800-06-08",
+        "sequence": 1,
+        "source_id": "evt-000006",
+        "summary": "Oskar sover vid aktuell sparpunkt."
+      }
+    ]
+  },
+  "extensions": {}
+}

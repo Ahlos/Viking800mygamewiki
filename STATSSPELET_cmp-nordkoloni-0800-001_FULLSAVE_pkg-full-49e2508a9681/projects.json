@@ -1,0 +1,328 @@
+{
+  "format": "STATSSPELET",
+  "format_version": "1.0.0",
+  "campaign_id": "cmp-nordkoloni-0800-001",
+  "document_type": "projects",
+  "document_revision": 0,
+  "coverage": "complete",
+  "coverage_note": "Komplett för all etablerad kampanjkanon som hör till dokumentets domän i denna snapshot.",
+  "data": {
+    "projects": [
+      {
+        "id": "prj-000001",
+        "type": "construction",
+        "status": "active",
+        "refs": [
+          {
+            "target_id": "loc-000006",
+            "target_document": "locations",
+            "relation": "at"
+          },
+          {
+            "target_id": "org-000001",
+            "target_document": "organizations",
+            "relation": "owner"
+          }
+        ],
+        "provenance": {
+          "kind": "simulated",
+          "source_refs": [],
+          "as_of_date": "0800-06-08",
+          "note": ""
+        },
+        "visibility": {
+          "classification": "player_known",
+          "known_to_character_ids": [
+            "chr-000001"
+          ]
+        },
+        "extensions": {},
+        "name": "Förrådshus",
+        "owner_id": "org-000001",
+        "decision_source_id": null,
+        "project_status": "complete",
+        "budget": null,
+        "spent": null,
+        "resources": [
+          "virke",
+          "arbetskraft"
+        ],
+        "capacity": null,
+        "start_date": "0800-06-04",
+        "schedule": null,
+        "milestones": [
+          "Funktionellt färdigt 6 juni"
+        ],
+        "dependencies": [],
+        "obstacles": [],
+        "progress": 1.0,
+        "expected_effects": [
+          "Skyddar utsäde, järn och matförråd"
+        ]
+      },
+      {
+        "id": "prj-000002",
+        "type": "construction",
+        "status": "active",
+        "refs": [
+          {
+            "target_id": "loc-000006",
+            "target_document": "locations",
+            "relation": "at"
+          },
+          {
+            "target_id": "org-000001",
+            "target_document": "organizations",
+            "relation": "owner"
+          }
+        ],
+        "provenance": {
+          "kind": "simulated",
+          "source_refs": [],
+          "as_of_date": "0800-06-08",
+          "note": ""
+        },
+        "visibility": {
+          "classification": "player_known",
+          "known_to_character_ids": [
+            "chr-000001"
+          ]
+        },
+        "extensions": {},
+        "name": "Bostadshus 1",
+        "owner_id": "org-000001",
+        "decision_source_id": null,
+        "project_status": "complete",
+        "budget": null,
+        "spent": null,
+        "resources": [
+          "virke",
+          "arbetskraft"
+        ],
+        "capacity": "flera familjer",
+        "start_date": "0800-06-04",
+        "schedule": null,
+        "milestones": [
+          "Färdigställt 7 juni"
+        ],
+        "dependencies": [],
+        "obstacles": [],
+        "progress": 1.0,
+        "expected_effects": [
+          "Permanent tak över huvudet"
+        ]
+      },
+      {
+        "id": "prj-000003",
+        "type": "construction",
+        "status": "active",
+        "refs": [
+          {
+            "target_id": "loc-000006",
+            "target_document": "locations",
+            "relation": "at"
+          },
+          {
+            "target_id": "org-000001",
+            "target_document": "organizations",
+            "relation": "owner"
+          }
+        ],
+        "provenance": {
+          "kind": "simulated",
+          "source_refs": [],
+          "as_of_date": "0800-06-08",
+          "note": ""
+        },
+        "visibility": {
+          "classification": "player_known",
+          "known_to_character_ids": [
+            "chr-000001"
+          ]
+        },
+        "extensions": {},
+        "name": "Bostadshus 2",
+        "owner_id": "org-000001",
+        "decision_source_id": "dec-000006",
+        "project_status": "in_progress",
+        "budget": null,
+        "spent": null,
+        "resources": [
+          "virke",
+          "arbetskraft"
+        ],
+        "capacity": "flera familjer",
+        "start_date": "0800-06-04",
+        "schedule": null,
+        "milestones": [],
+        "dependencies": [],
+        "obstacles": [
+          "konkurrerar om arbetskraft med andra behov"
+        ],
+        "progress": 0.7,
+        "expected_effects": [
+          "Fler bosättare under permanent tak"
+        ]
+      },
+      {
+        "id": "prj-000004",
+        "type": "workshop",
+        "status": "active",
+        "refs": [
+          {
+            "target_id": "loc-000001",
+            "target_document": "locations",
+            "relation": "at"
+          },
+          {
+            "target_id": "chr-000005",
+            "target_document": "characters",
+            "relation": "operated_by"
+          }
+        ],
+        "provenance": {
+          "kind": "simulated",
+          "source_refs": [],
+          "as_of_date": "0800-06-08",
+          "note": ""
+        },
+        "visibility": {
+          "classification": "player_known",
+          "known_to_character_ids": [
+            "chr-000001"
+          ]
+        },
+        "extensions": {},
+        "name": "Enkel smedja",
+        "owner_id": "org-000001",
+        "decision_source_id": "dec-000007",
+        "project_status": "operational",
+        "budget": null,
+        "spent": null,
+        "resources": [
+          "järn",
+          "träkol",
+          "verktyg"
+        ],
+        "capacity": "enklare järnreparation och smide",
+        "start_date": "0800-06-07",
+        "schedule": null,
+        "milestones": [
+          "Första fungerande härden 7 juni"
+        ],
+        "dependencies": [],
+        "obstacles": [
+          "begränsat järnförråd"
+        ],
+        "progress": 1.0,
+        "expected_effects": [
+          "Reparation av yxor och beslag",
+          "Enklare spikar och järnföremål"
+        ]
+      },
+      {
+        "id": "prj-000005",
+        "type": "livestock_infrastructure",
+        "status": "active",
+        "refs": [
+          {
+            "target_id": "loc-000001",
+            "target_document": "locations",
+            "relation": "at"
+          }
+        ],
+        "provenance": {
+          "kind": "simulated",
+          "source_refs": [],
+          "as_of_date": "0800-06-08",
+          "note": ""
+        },
+        "visibility": {
+          "classification": "player_known",
+          "known_to_character_ids": [
+            "chr-000001"
+          ]
+        },
+        "extensions": {},
+        "name": "Provisoriskt boskapshägn",
+        "owner_id": "org-000001",
+        "decision_source_id": null,
+        "project_status": "operational_provisional",
+        "budget": null,
+        "spent": null,
+        "resources": [
+          "småvirke",
+          "arbetskraft"
+        ],
+        "capacity": "startbeståndet",
+        "start_date": "0800-06-04",
+        "schedule": null,
+        "milestones": [
+          "Fungerande hägn 4 juni"
+        ],
+        "dependencies": [],
+        "obstacles": [
+          "getterna testar svaga delar"
+        ],
+        "progress": 1.0,
+        "expected_effects": [
+          "Samlar och skyddar boskap"
+        ]
+      },
+      {
+        "id": "prj-000006",
+        "type": "agriculture",
+        "status": "active",
+        "refs": [
+          {
+            "target_id": "loc-000005",
+            "target_document": "locations",
+            "relation": "at"
+          },
+          {
+            "target_id": "chr-000012",
+            "target_document": "characters",
+            "relation": "advisor"
+          }
+        ],
+        "provenance": {
+          "kind": "simulated",
+          "source_refs": [],
+          "as_of_date": "0800-06-08",
+          "note": ""
+        },
+        "visibility": {
+          "classification": "player_known",
+          "known_to_character_ids": [
+            "chr-000001"
+          ]
+        },
+        "extensions": {},
+        "name": "Första odlingen på Akrlendi",
+        "owner_id": "org-000001",
+        "decision_source_id": null,
+        "project_status": "planned_not_started",
+        "budget": null,
+        "spent": null,
+        "resources": [
+          "arbetskraft",
+          "utsäde",
+          "jordbruksredskap"
+        ],
+        "capacity": null,
+        "start_date": null,
+        "schedule": null,
+        "milestones": [],
+        "dependencies": [],
+        "obstacles": [
+          "marken måste röjas"
+        ],
+        "progress": 0.0,
+        "expected_effects": [
+          "Lokal spannmålsproduktion"
+        ]
+      }
+    ]
+  },
+  "extensions": {}
+}

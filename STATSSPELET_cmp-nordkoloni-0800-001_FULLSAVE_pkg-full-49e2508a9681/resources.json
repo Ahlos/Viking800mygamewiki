@@ -1,0 +1,156 @@
+{
+  "format": "STATSSPELET",
+  "format_version": "1.0.0",
+  "campaign_id": "cmp-nordkoloni-0800-001",
+  "document_type": "resources",
+  "document_revision": 0,
+  "coverage": "partial",
+  "coverage_note": "Kända strategiska resurser och startbestånd är sparade. Oupptäckta resurser ingår inte.",
+  "data": {
+    "records": [
+      {
+        "id": "res-000001",
+        "type": "ships",
+        "status": "active",
+        "refs": [
+          {
+            "target_id": "loc-000002",
+            "target_document": "locations",
+            "relation": "stored_at"
+          },
+          {
+            "target_id": "org-000001",
+            "target_document": "organizations",
+            "relation": "owned_by"
+          }
+        ],
+        "provenance": {
+          "kind": "simulated",
+          "source_refs": [],
+          "as_of_date": "0800-06-08",
+          "note": ""
+        },
+        "visibility": {
+          "classification": "player_known",
+          "known_to_character_ids": [
+            "chr-000001"
+          ]
+        },
+        "extensions": {},
+        "resource": "klinkbyggda nordiska fartyg",
+        "quantity": 7,
+        "unit": "fartyg",
+        "reserve_type": "existing_stock",
+        "production": null,
+        "consumption": null,
+        "import_dependency": null,
+        "notes": "Fem större transportfartyg och två snabbare fartyg; samtliga oskadade vid senaste kända kontroll."
+      },
+      {
+        "id": "res-000002",
+        "type": "livestock",
+        "status": "active",
+        "refs": [
+          {
+            "target_id": "loc-000001",
+            "target_document": "locations",
+            "relation": "kept_at"
+          },
+          {
+            "target_id": "org-000001",
+            "target_document": "organizations",
+            "relation": "owned_by"
+          }
+        ],
+        "provenance": {
+          "kind": "simulated",
+          "source_refs": [],
+          "as_of_date": "0800-06-08",
+          "note": ""
+        },
+        "visibility": {
+          "classification": "player_known",
+          "known_to_character_ids": [
+            "chr-000001"
+          ]
+        },
+        "extensions": {},
+        "resource": "boskap",
+        "quantity": null,
+        "unit": "djur",
+        "reserve_type": "existing_stock",
+        "production": null,
+        "consumption": null,
+        "import_dependency": null,
+        "notes": "Etablerat startbestånd: 8 nötboskap, 18 får, 12 getter, 10 grisar och 24 hönsfåglar. Inga kända förluster."
+      },
+      {
+        "id": "res-000003",
+        "type": "iron",
+        "status": "active",
+        "refs": [
+          {
+            "target_id": "org-000001",
+            "target_document": "organizations",
+            "relation": "owned_by"
+          }
+        ],
+        "provenance": {
+          "kind": "simulated",
+          "source_refs": [],
+          "as_of_date": "0800-06-08",
+          "note": ""
+        },
+        "visibility": {
+          "classification": "player_known",
+          "known_to_character_ids": [
+            "chr-000001"
+          ]
+        },
+        "extensions": {},
+        "resource": "järn och järnföremål för omsmidning",
+        "quantity": null,
+        "unit": null,
+        "reserve_type": "limited_stock",
+        "production": null,
+        "consumption": "verktygsreparation och smide",
+        "import_dependency": "ingen kontakt med Norden; ingen lokal järnproduktion etablerad",
+        "notes": "Begränsad strategisk resurs."
+      },
+      {
+        "id": "res-000004",
+        "type": "timber",
+        "status": "active",
+        "refs": [
+          {
+            "target_id": "loc-000001",
+            "target_document": "locations",
+            "relation": "available_at"
+          }
+        ],
+        "provenance": {
+          "kind": "simulated",
+          "source_refs": [],
+          "as_of_date": "0800-06-08",
+          "note": ""
+        },
+        "visibility": {
+          "classification": "player_known",
+          "known_to_character_ids": [
+            "chr-000001"
+          ]
+        },
+        "extensions": {},
+        "resource": "bygg- och skeppsvirke",
+        "quantity": null,
+        "unit": null,
+        "reserve_type": "local_resource",
+        "production": "fällning och bearbetning",
+        "consumption": "byggande",
+        "import_dependency": null,
+        "notes": "Riklig skog; särskilt värdefulla raka stammar reserveras för större konstruktioner och fartyg."
+      }
+    ]
+  },
+  "extensions": {}
+}

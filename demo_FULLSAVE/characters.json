@@ -1,0 +1,40 @@
+{
+  "characters": [
+    {
+      "id": "PER-000001",
+      "name": "Elin Berg",
+      "role": "Projektledare",
+      "status": "Aktiv",
+      "description": "Elin Berg leder det fiktiva projektet för Nordhamns nya hamn. Hon arbetar inom ORG-000001.",
+      "organization_ids": [
+        "ORG-000001"
+      ],
+      "location_id": "LOC-000001",
+      "project_ids": [
+        "PRO-000001"
+      ]
+    },
+    {
+      "id": "PER-000002",
+      "name": "Åsa Öberg",
+      "role": "Mariningenjör",
+      "status": "Aktiv",
+      "description": "Åsa Öberg ansvarar för teknisk dokumentation av forskningsfartyget Lodet.",
+      "organization_ids": [
+        "ORG-000002"
+      ],
+      "ship_id": "SHIP-000001",
+      "age": null
+    },
+    {
+      "id": "PER-000003",
+      "name": "Nils Ek",
+      "role": "Ordförande",
+      "status": "Aktiv",
+      "organization_ids": [
+        "ORG-000001"
+      ],
+      "location_id": "LOC-000001"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "navy": {
+    "ships": [
+      {
+        "id": "SHIP-000001",
+        "name": "Lodet",
+        "type": "Forskningsfartyg",
+        "status": "Under underhåll",
+        "description": "Fiktivt fartyg i sparningens militära objektregister.",
+        "location_id": "LOC-000002",
+        "organization_id": "ORG-000002",
+        "project_id": "PRO-000002"
+      }
+    ]
+  },
+  "units": [
+    {
+      "id": "MIL-000001",
+      "name": "Hamnbevakningen",
+      "type": "Bevakningsenhet",
+      "status": "Aktiv",
+      "location_id": "LOC-000001"
+    }
+  ]
+}

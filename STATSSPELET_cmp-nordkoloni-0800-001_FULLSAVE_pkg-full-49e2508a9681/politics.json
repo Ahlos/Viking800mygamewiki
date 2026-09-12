@@ -1,0 +1,53 @@
+{
+  "format": "STATSSPELET",
+  "format_version": "1.0.0",
+  "campaign_id": "cmp-nordkoloni-0800-001",
+  "document_type": "politics",
+  "document_revision": 0,
+  "coverage": "complete",
+  "coverage_note": "Komplett för all etablerad kampanjkanon som hör till dokumentets domän i denna snapshot.",
+  "data": {
+    "records": [
+      {
+        "id": "pol-000001",
+        "type": "authority_structure",
+        "status": "active",
+        "refs": [
+          {
+            "target_id": "chr-000001",
+            "target_document": "characters",
+            "relation": "leader"
+          },
+          {
+            "target_id": "org-000001",
+            "target_document": "organizations",
+            "relation": "applies_to"
+          }
+        ],
+        "provenance": {
+          "kind": "simulated",
+          "source_refs": [],
+          "as_of_date": "0800-06-08",
+          "note": ""
+        },
+        "visibility": {
+          "classification": "player_known",
+          "known_to_character_ids": [
+            "chr-000001"
+          ]
+        },
+        "extensions": {},
+        "system": "informell expeditions- och bosättningsledning",
+        "leader_character_id": "chr-000001",
+        "authority_basis": [
+          "förtroende",
+          "resultat",
+          "expeditionens accepterade ledarskap"
+        ],
+        "hereditary": false,
+        "notes": "Oskar är inte enväldig. NPC:er är självständiga och kan säga emot, vägra eller skapa egna mål."
+      }
+    ]
+  },
+  "extensions": {}
+}

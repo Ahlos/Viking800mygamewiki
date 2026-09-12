@@ -1,0 +1,54 @@
+{
+  "format": "STATSSPELET",
+  "format_version": "1.0.0",
+  "campaign_id": "cmp-nordkoloni-0800-001",
+  "document_type": "relationships",
+  "document_revision": 0,
+  "coverage": "complete",
+  "coverage_note": "Komplett för all etablerad kampanjkanon som hör till dokumentets domän i denna snapshot.",
+  "data": {
+    "relationships": [
+      {
+        "id": "rel-000001",
+        "type": "marriage",
+        "status": "active",
+        "refs": [
+          {
+            "target_id": "chr-000001",
+            "target_document": "characters",
+            "relation": "source"
+          },
+          {
+            "target_id": "chr-000002",
+            "target_document": "characters",
+            "relation": "target"
+          }
+        ],
+        "provenance": {
+          "kind": "simulated",
+          "source_refs": [],
+          "as_of_date": "0800-06-08",
+          "note": ""
+        },
+        "visibility": {
+          "classification": "player_known",
+          "known_to_character_ids": [
+            "chr-000001"
+          ]
+        },
+        "extensions": {},
+        "source_id": "chr-000001",
+        "target_id": "chr-000002",
+        "relation_type": "spouse",
+        "direction": "mutual",
+        "strength": "close",
+        "valid_from": null,
+        "valid_to": null,
+        "history": [
+          "Gifta före kampanjstart; relationen är nära och betrodd."
+        ]
+      }
+    ]
+  },
+  "extensions": {}
+}

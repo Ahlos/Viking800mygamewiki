@@ -1,0 +1,22 @@
+[
+  {
+    "id": "DEC-000001",
+    "title": "Anslag till hamnprojektet",
+    "date": "2030-04-02",
+    "turn": 2,
+    "description": "Rådet beslutar om 750 000 demokronor för planeringsarbetet.",
+    "organization_id": "ORG-000001",
+    "project_id": "PRO-000001",
+    "consequence_ids": [
+      "CON-000001"
+    ]
+  },
+  {
+    "id": "DEC-000002",
+    "title": "Beställ teknisk översyn",
+    "date": "2030-04-09",
+    "turn": 9,
+    "project_id": "PRO-000002",
+    "character_id": "PER-000002"
+  }
+]

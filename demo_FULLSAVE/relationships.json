@@ -1,0 +1,16 @@
+{
+  "relationships": [
+    {
+      "id": "REL-000001",
+      "source_id": "PER-000001",
+      "relation_type": "samarbetar med",
+      "target_id": "PER-000002"
+    },
+    {
+      "id": "REL-000002",
+      "source_id": "PER-000003",
+      "relation_type": "leder",
+      "target_id": "ORG-000001"
+    }
+  ]
+}
